@@ -1,0 +1,5062 @@
+[
+  {
+    "id": "01a17f24-1a24-72b7-a1f8-bf7c5e98bc6f",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ACTIVE Shuttle",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/service-and-support/service/",
+      "source_locator": "HTML page",
+      "source_sha256": "a4ccd6991062fbc7040b743e95f25eae09b7fdc7560f0c05dffbf3e45f4ecd70",
+      "evidence_json": {
+        "model": {
+          "quote": "ACTIVE Shuttle",
+          "locator": "Mobile Robotics"
+        },
+        "device_type": {
+          "quote": "autonomous mobile robot",
+          "url": "https://www.boschrexroth.com/en/de/service-and-support/service/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ACTIVE Shuttle"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ACTIVE Shuttle"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ACTIVE Shuttle"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a26-7714-92d3-e01386d454ec",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA",
+      "part_number": "RE 98145",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=98145&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "c1350fde918a513f3042f221bdc9111fcd5564b9b4e5d7a34358471beae4455c",
+      "evidence_json": {
+        "model": {
+          "quote": "RFT-OA",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "RE 98145",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=98145&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "RE 98145"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a27-76cc-b70d-7b292a907b75",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA",
+      "part_number": "RD 98145",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=98145&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "c1350fde918a513f3042f221bdc9111fcd5564b9b4e5d7a34358471beae4455c",
+      "evidence_json": {
+        "model": {
+          "quote": "RFT-OA",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "RD 98145",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=98145&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "RD 98145"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a27-7e98-b6e5-e4d41d9e0010",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RE 98135",
+      "part_number": "98135",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=98135&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "24e7c7e86b85af58b05e666c2a7022ea30b49d7a9ed9bf842429a2666f601e0a",
+      "evidence_json": {
+        "model": {
+          "quote": "Bosch Rexroth Fluid Test Rigs RE 98135",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "Search results for \"98135\"",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=98135&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RE 98135"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RE 98135"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RE 98135"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "98135"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a28-70a1-9d13-24eed5e03ffc",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RD 98135",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=98135&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "24e7c7e86b85af58b05e666c2a7022ea30b49d7a9ed9bf842429a2666f601e0a",
+      "evidence_json": {
+        "model": {
+          "quote": "Bosch Rexroth Fluid-Testprüfstände RD 98135",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=98135&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RD 98135"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RD 98135"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RD 98135"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a28-7262-99f4-17a7e7edc30b",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CML",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/de/de/c/indracontrol-cml/",
+      "source_locator": "HTML page",
+      "source_sha256": "b4719d33e1e2b5c66b52a67739a486fe431eae6843b49d2a6464449c68006ea3",
+      "evidence_json": {
+        "model": {
+          "quote": "IndraControl CML",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "motion controller",
+          "url": "https://www.boschrexroth.com/de/de/c/indracontrol-cml/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CML"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CML"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CML"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a29-7367-87bc-aec656000c09",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/8c1e8b8e-814b-4367-8151-9958bf8b77ab",
+      "source_locator": "HTML page",
+      "source_sha256": "f4866fdccb5d12ed7074c145a24e60ea876cabd29d48126923ce683c360b2818",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth oil aging test rig RFT-OA",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/en/de/media-details/8c1e8b8e-814b-4367-8151-9958bf8b77ab",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a29-7f93-ab86-c479697a1b65",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MSM/ MS2N",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/selection-and-design-tool-linselect/",
+      "source_locator": "HTML page",
+      "source_sha256": "dad38bfede2ca06bb6a5d06a6214907e794ac78b85d1fc021ceb89eb09eb7e8e",
+      "evidence_json": {
+        "model": {
+          "quote": "Pressing Servo motors MSM/ MS2N,",
+          "locator": "Source section/page"
+        },
+        "device_type": {
+          "quote": "servo motor",
+          "url": "https://www.boschrexroth.com/en/de/c/selection-and-design-tool-linselect/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MSM/ MS2N"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MSM/ MS2N"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MSM/ MS2N"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2a-7f25-beab-57e962f154e2",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "HCS, ctrlX",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/c/selection-and-design-tool-linselect/",
+      "source_locator": "HTML page",
+      "source_sha256": "dad38bfede2ca06bb6a5d06a6214907e794ac78b85d1fc021ceb89eb09eb7e8e",
+      "evidence_json": {
+        "model": {
+          "quote": "Servo drives HCS, ctrlX",
+          "locator": "Source section/page"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/c/selection-and-design-tool-linselect/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "HCS, ctrlX"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "HCS, ctrlX"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "HCS, ctrlX"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2b-7118-bd1c-97ebf8ede8d0",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "product_family": "Ball rail systems",
+      "model": "BSCL",
+      "device_type": "Mechanical equipment",
+      "description": "Price-optimized, versatile, in the usual Rexroth quality",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ball-rail-systems-compact-line-bscl/",
+      "source_locator": "HTML page",
+      "source_sha256": "3a3e549f9f582c503b39cba2a6589e858833558137ef2d1d49e7dd05a09d0776",
+      "evidence_json": {
+        "model": {
+          "quote": "Ball rail systems BSCL",
+          "locator": "Source URL: https://www.boschrexroth.com/en/de/c/ball-rail-systems-compact-line-bscl/"
+        },
+        "product_family": {
+          "quote": "Ball rail systems BSCL",
+          "locator": "Source URL: https://www.boschrexroth.com/en/de/c/ball-rail-systems-compact-line-bscl/"
+        },
+        "device_type": {
+          "quote": "linear guide",
+          "url": "https://www.boschrexroth.com/en/de/c/ball-rail-systems-compact-line-bscl/",
+          "locator": "Manufacturer product page"
+        },
+        "description": {
+          "quote": "Price-optimized, versatile, in the usual Rexroth quality",
+          "locator": "Source text (untrusted manufacturer evidence): Price-optimized, versatile, in the usual Rexroth quality"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "Ball rail systems"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "BSCL"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "BSCL"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "BSCL"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2b-78e7-bdcb-c136fc4b13cc",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CKR-280",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/compact-modules-for-heavy-duty-applications/",
+      "source_locator": "HTML page",
+      "source_sha256": "26909601643bf69db99b42b2b00c196eaf27cf0fe0b013461c83466bafe351a6",
+      "evidence_json": {
+        "model": {
+          "quote": "The new compact module CKR-280, featuring a dual belt drive, can operate two carriages completely independently and with precision.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "linear actuator",
+          "url": "https://www.boschrexroth.com/en/de/c/compact-modules-for-heavy-duty-applications/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CKR-280"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CKR-280"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CKR-280"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2b-7981-9133-d4e9fa5e61e7",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "EMC-HP",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders-emc-hp-high-power/",
+      "source_locator": "HTML page",
+      "source_sha256": "86dea2411218d853b05a640a09bd48f352c64395f4ab4b89b55a3f68b30c6f20",
+      "evidence_json": {
+        "model": {
+          "quote": "Electromechanical Cylinder EMC-HP",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "electromechanical cylinder",
+          "url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders-emc-hp-high-power/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "EMC-HP"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "EMC-HP"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "EMC-HP"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2b-7dbc-8351-f708821529f2",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MS2N series servo motor",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/smart-function-kit-pressing/",
+      "source_locator": "HTML page",
+      "source_sha256": "dd8835545b9119910011e4e20d23c970cdfa8aa882d22b3e2a5171ff5f425e51",
+      "evidence_json": {
+        "model": {
+          "quote": "MS2N series servo motor with absolute encoder and brake",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "servo motor",
+          "url": "https://www.boschrexroth.com/en/de/c/smart-function-kit-pressing/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MS2N series servo motor"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MS2N series servo motor"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MS2N series servo motor"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2b-7cda-8a09-0062795e60c5",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IMScompact",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-system-imscompact/",
+      "source_locator": "HTML page",
+      "source_sha256": "1d4313229b521319b0a3966f2bf0752942f6494111c94b1da4d7e0947a7972df",
+      "evidence_json": {
+        "model": {
+          "quote": "Integrated Measuring System IMScompact",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "integrated measuring system",
+          "url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-system-imscompact/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IMScompact"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IMScompact"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IMScompact"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-737e-8968-91b1cf2ed1e4",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KR 1240",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+      "source_locator": "HTML page",
+      "source_sha256": "9c706700d612794dbce66252593c407d43b089ee99236f6b9e6384c6b5cfe797",
+      "evidence_json": {
+        "model": {
+          "quote": "KR 1240 & KR 1824 Models – NEW More Power. More Reach. Same Kassow Flexibility.",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "collaborative robot",
+          "url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR 1240"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR 1240"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR 1240"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-7f43-97e0-0942d27c892e",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KR 1824",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+      "source_locator": "HTML page",
+      "source_sha256": "9c706700d612794dbce66252593c407d43b089ee99236f6b9e6384c6b5cfe797",
+      "evidence_json": {
+        "model": {
+          "quote": "KR 1240 & KR 1824 Models – NEW More Power. More Reach. Same Kassow Flexibility.",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "collaborative robot",
+          "url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR 1824"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR 1824"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR 1824"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-7d66-b6ad-79e5a349d405",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KR1410",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+      "source_locator": "HTML page",
+      "source_sha256": "9c706700d612794dbce66252593c407d43b089ee99236f6b9e6384c6b5cfe797",
+      "evidence_json": {
+        "model": {
+          "quote": "The KR1410 on the job: loading a CNC lathe",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "collaborative robot",
+          "url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR1410"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR1410"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR1410"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-7874-8dbc-f33af6ee7463",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KR810",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+      "source_locator": "HTML page",
+      "source_sha256": "9c706700d612794dbce66252593c407d43b089ee99236f6b9e6384c6b5cfe797",
+      "evidence_json": {
+        "model": {
+          "quote": "Labelling in tight space with the KR810 The 7-axes KR810 Process – Applying Labels Effeciently in Limited Spaces",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "collaborative robot",
+          "url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR810"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR810"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR810"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-76ac-b860-86cf323878d7",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KR1205",
+      "device_type": "Robotics",
+      "source_url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+      "source_locator": "HTML page",
+      "source_sha256": "9c706700d612794dbce66252593c407d43b089ee99236f6b9e6384c6b5cfe797",
+      "evidence_json": {
+        "model": {
+          "quote": "7-axes cobot for securing cutting edge gluing KR1205 in action: 8 steps towards better output and quality in gluing and sealant",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "collaborative robot",
+          "url": "https://www.boschrexroth.com/en/de/c/cobots-from-kassow-robots/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR1205"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR1205"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR1205"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-7b01-8f77-acdc70a4bd24",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA RD",
+      "part_number": "98145",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/search.html?q=98145&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "793928013a0778209cf0ff86996945afc8c97065befd6644222ac2b7b436b700",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth Ölalterungsprüfstand RFT-OA RD 98145",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "98145",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/de/de/search.html?q=98145&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA RD"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA RD"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA RD"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "98145"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2c-7810-9975-7cd62bbe285b",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA RE",
+      "part_number": "98145",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/search.html?q=98145&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "793928013a0778209cf0ff86996945afc8c97065befd6644222ac2b7b436b700",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth oil aging test rig RFT-OA RE 98145",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "98145",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/de/de/search.html?q=98145&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA RE"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA RE"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA RE"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "98145"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-7c01-a2b0-f121184c2b7c",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "PS6000",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/automotive/",
+      "source_locator": "HTML page",
+      "source_sha256": "56f38ae45e730caeaf167282479ed9e0080919b7ec2c3c1b10803d5d0a0dc99c",
+      "evidence_json": {
+        "model": {
+          "quote": "welding controller PS6000",
+          "locator": "Case studies from Bosch Rexroth prev AUDI"
+        },
+        "device_type": {
+          "quote": "welding controller",
+          "url": "https://www.boschrexroth.com/en/de/industries/automotive/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "PS6000"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "PS6000"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "PS6000"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-75a0-98bf-ffa2524d3813",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "350",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/automotive/",
+      "source_locator": "HTML page",
+      "source_sha256": "56f38ae45e730caeaf167282479ed9e0080919b7ec2c3c1b10803d5d0a0dc99c",
+      "evidence_json": {
+        "model": {
+          "quote": "tightening system 350",
+          "locator": "Case studies from Bosch Rexroth prev AUDI"
+        },
+        "device_type": {
+          "quote": "tightening controller",
+          "url": "https://www.boschrexroth.com/en/de/industries/automotive/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "350"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "350"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "350"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-76c4-bf12-699b75396cbf",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ML",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/energy-and-utilities/",
+      "source_locator": "HTML page",
+      "source_sha256": "be39ad1831a5332615a24b9e576ec664cceb09801ee60e16a2cbdc43bc69e811",
+      "evidence_json": {
+        "model": {
+          "quote": "The IndraDrive ML extends the IndraDrive series into the upper power range",
+          "locator": "Large electric drives"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/industries/energy-and-utilities/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ML"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ML"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ML"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-73fc-9e99-c680d7d48cab",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CB 840 motors with Bica brake",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/materials-and-resources/",
+      "source_locator": "HTML page",
+      "source_sha256": "72307857f1260eaaf350849c6419e523120a080b9dc18bbac20b8f09754509d8",
+      "evidence_json": {
+        "model": {
+          "quote": "Today Hägglunds CB 840 motors with Bica brake successfully drive the pinions for slewing.",
+          "locator": "CASE STUDIES."
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/industries/materials-and-resources/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CB 840 motors with Bica brake"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CB 840 motors with Bica brake"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CB 840 motors with Bica brake"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-7c2b-bb3c-37c08b8f6b6a",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CA 50 motors",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/materials-and-resources/",
+      "source_locator": "HTML page",
+      "source_sha256": "72307857f1260eaaf350849c6419e523120a080b9dc18bbac20b8f09754509d8",
+      "evidence_json": {
+        "model": {
+          "quote": "The long travel drives on two of the bucket wheel reclaimers have been fitted with Hägglunds CA 50 motors.",
+          "locator": "CASE STUDIES."
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/industries/materials-and-resources/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CA 50 motors"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CA 50 motors"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CA 50 motors"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-7b2b-80bd-974c8d02debc",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX MOTION",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/semiconductors-and-electronics/",
+      "source_locator": "HTML page",
+      "source_sha256": "8dc2da48c94d840766c329b51af2649bb03763cbd3c9c5c4954c48cd42e5079a",
+      "evidence_json": {
+        "model": {
+          "quote": "wafer inspection & testing with ctrlX MOTION and linear systems",
+          "locator": "Wafer inspection & Test YOUR VALUE STREAM NEEDS ... Precision and accuracy Throughput and cycle time Cleanliness and contamination control Product Category: SOLUTION SET Wafer inspection & testing wit"
+        },
+        "device_type": {
+          "quote": "motion controller",
+          "url": "https://www.boschrexroth.com/en/de/industries/semiconductors-and-electronics/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX MOTION"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX MOTION"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX MOTION"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2d-7c4f-b87b-045fde98a93a",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX CORE",
+      "device_type": "PLC",
+      "version_kind": "firmware",
+      "version": "4.6 LTS",
+      "version_release_date": "2026-09-15",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ctrlx-core/",
+      "source_locator": "HTML page",
+      "source_sha256": "8dc2da48c94d840766c329b51af2649bb03763cbd3c9c5c4954c48cd42e5079a",
+      "evidence_json": {
+        "model": {
+          "quote": "Motion solution with XYZ control using ctrlX CORE",
+          "locator": "Wafer Dicing YOUR VALUE STREAM NEEDS ... High-speed, backlash-free XY movement Vision-based path correction Sub-micron repeatability Cleanroom class 5-6 Product Category: SOLUTION SET Motion solution "
+        },
+        "device_type": {
+          "quote": "PLC",
+          "url": "https://www.boschrexroth.com/en/de/c/ctrlx-core/",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "4.6 LTS",
+          "url": "https://community.boschrexroth.com/ctrlx-automation-how-tos-qmglrz33/post/4-6-lts-release-notes-Z6DJL8XnhPfjX01",
+          "locator": "Release notes"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX CORE"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX CORE"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX CORE"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000001",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-7e55-abb5-c7b25d490b6f",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Electro-hydraulic Hitch Control EHC",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Electro-hydraulic Hitch Control EHC",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "electro-hydraulic control system",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Electro-hydraulic Hitch Control EHC"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Electro-hydraulic Hitch Control EHC"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Electro-hydraulic Hitch Control EHC"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-79e9-ac70-9a5042290f19",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Electro-hydraulic Header Height Control EMR",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Electro-hydraulic Header Height Control EMR",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "electro-hydraulic control system",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Electro-hydraulic Header Height Control EMR"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Electro-hydraulic Header Height Control EMR"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Electro-hydraulic Header Height Control EMR"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-7d00-b750-6093beef98a5",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Rexroth A11VLO axial piston unit",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth A11VLO axial piston unit",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rexroth A11VLO axial piston unit"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rexroth A11VLO axial piston unit"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rexroth A11VLO axial piston unit"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-7150-83c9-911ee9e0c089",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "High-Level Braking System HLB",
+      "device_type": "Other",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "High-Level Braking System HLB",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "braking system",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "High-Level Braking System HLB"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "High-Level Braking System HLB"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "High-Level Braking System HLB"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000018",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-7505-9fd8-a914eafe24eb",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Rexroth A10VO variable pump",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth A10VO variable pump",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rexroth A10VO variable pump"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rexroth A10VO variable pump"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rexroth A10VO variable pump"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-70f3-99ca-080bf52185da",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Rexroth A6VM variable motor",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth A6VM variable motor",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rexroth A6VM variable motor"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rexroth A6VM variable motor"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rexroth A6VM variable motor"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2e-7d97-8b44-bae5727dd37f",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Rexroth hydrostatic drives",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+      "source_locator": "HTML page",
+      "source_sha256": "069f5cb9b4b527bb81f5a3b94f435492b33c64403a43823d07c417258c4f2b13",
+      "evidence_json": {
+        "model": {
+          "quote": "Rexroth hydrostatic drives",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "hydrostatic drive",
+          "url": "https://www.boschrexroth.com/en/de/industries/agriculture-and-forestry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rexroth hydrostatic drives"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rexroth hydrostatic drives"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rexroth hydrostatic drives"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-7947-b067-00d1048c9c22",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX HMI",
+      "device_type": "HMI",
+      "version_kind": "firmware",
+      "version": "4.6 LTS",
+      "version_release_date": "2026-09-15",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ctrlx-hmi/",
+      "source_locator": "HTML page",
+      "source_sha256": "a16e48c1562af3c999976700aba6054931174649a25e263af475336632cb411f",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX HMI",
+          "locator": "Source text (untrusted manufacturer evidence)"
+        },
+        "device_type": {
+          "quote": "HMI",
+          "url": "https://www.boschrexroth.com/en/de/c/ctrlx-hmi/",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "4.6 LTS",
+          "url": "https://community.boschrexroth.com/ctrlx-automation-how-tos-qmglrz33/post/4-6-lts-release-notes-Z6DJL8XnhPfjX01",
+          "locator": "Release notes"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX HMI"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX HMI"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX HMI"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000004",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-71f4-a942-0d6b7e0b70e9",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX",
+      "device_type": "Industrial computer",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ctrlx-ipc/",
+      "source_locator": "HTML page",
+      "source_sha256": "c90d1278c64867e22e75630ea83494e3768220f2e32fb92161a1e6746ebbe150",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX IPC",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "industrial PC",
+          "url": "https://www.boschrexroth.com/en/de/c/ctrlx-ipc/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000008",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-7748-acc2-b7775705bd0f",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MS2N/MS2E/MS2S synchronous servo motors",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/motors-and-gearboxes/",
+      "source_locator": "HTML page",
+      "source_sha256": "b9eb4d0f081918c0ec4bac06727de59a900539ce6561e2518418d8f8493e540b",
+      "evidence_json": {
+        "model": {
+          "quote": "With the new MS2N/MS2E/MS2S synchronous servo motors, users gain significant benefits",
+          "locator": "Page section: Motors & Gearboxes"
+        },
+        "device_type": {
+          "quote": "servo motor",
+          "url": "https://www.boschrexroth.com/en/de/c/motors-and-gearboxes/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MS2N/MS2E/MS2S synchronous servo motors"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MS2N/MS2E/MS2S synchronous servo motors"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MS2N/MS2E/MS2S synchronous servo motors"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-78c2-944d-0786c5ab4412",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX FLOW",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ctrlx-flow/",
+      "source_locator": "HTML page",
+      "source_sha256": "2a4877d6d73480b8871342812dbdd6a8fa71711f469a16194b83bb20a5c577cc",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX FLOW",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "conveyor system",
+          "url": "https://www.boschrexroth.com/en/de/c/ctrlx-flow/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX FLOW"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX FLOW"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX FLOW"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-7520-aa0c-03ad65d59adb",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "VC151-R913118381",
+      "device_type": "Measurement and monitoring",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "2c94c2515d5a56f9f6abe9b6733449b982391e8f7ba66cd1155da91a089ced3d",
+      "evidence_json": {
+        "model": {
+          "quote": "Digital multimeter VC151-R913118381",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "multimeter",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "VC151-R913118381"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "VC151-R913118381"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "VC151-R913118381"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-7db1-ac58-441fef89cfe7",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX IO",
+      "device_type": "I/O module",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "2c94c2515d5a56f9f6abe9b6733449b982391e8f7ba66cd1155da91a089ced3d",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX IO",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "I/O module",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX IO"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX IO"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX IO"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000009",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a2f-72e9-80b3-76df8f38b462",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "OCM-T",
+      "device_type": "Measurement and monitoring",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "2c94c2515d5a56f9f6abe9b6733449b982391e8f7ba66cd1155da91a089ced3d",
+      "evidence_json": {
+        "model": {
+          "quote": "Öl Condition Monitoring-Terminal (OCM-T)",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "condition monitoring device",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=ALL&dnavs=DC_mediatype%3Adc_media_type_fact_sheet+DC_isActive%3Adc_asset_status_active&orderby=mes%3Adate&order_direction=DESCENDING&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "OCM-T"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "OCM-T"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "OCM-T"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-787f-9b47-5d0470abdaaf",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Hydraulix 300",
+      "device_type": "Other",
+      "source_url": "https://www.boschrexroth.com/en/de/c/training-systems-for-hydraulics/",
+      "source_locator": "HTML page",
+      "source_sha256": "c9c0afa18e1157a49b526affbbfc9f85bdfe4ca9b1438fe477d4a1a59335af89",
+      "evidence_json": {
+        "model": {
+          "quote": "Hydraulix 300",
+          "locator": "Learning topics – Industrial hydraulics: Hydraulix 300"
+        },
+        "device_type": {
+          "quote": "training system",
+          "url": "https://www.boschrexroth.com/en/de/c/training-systems-for-hydraulics/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Hydraulix 300"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Hydraulix 300"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Hydraulix 300"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000018",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-70f9-8417-701a33d8290b",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Hydraulix 200",
+      "device_type": "Other",
+      "source_url": "https://www.boschrexroth.com/en/de/c/training-systems-for-hydraulics/",
+      "source_locator": "HTML page",
+      "source_sha256": "c9c0afa18e1157a49b526affbbfc9f85bdfe4ca9b1438fe477d4a1a59335af89",
+      "evidence_json": {
+        "model": {
+          "quote": "Hydraulix 200",
+          "locator": "Learning topics – Industrial hydraulics: Hydraulix 200"
+        },
+        "device_type": {
+          "quote": "training system",
+          "url": "https://www.boschrexroth.com/en/de/c/training-systems-for-hydraulics/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Hydraulix 200"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Hydraulix 200"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Hydraulix 200"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000018",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-731d-92f8-ac937c890f1a",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CKK/CKR",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/68401393-19ff-4908-934e-02ae8e02b319",
+      "source_locator": "HTML page",
+      "source_sha256": "c7b71afa41f96e40f70b2b15b0fc49ec97ad51086a0ea75d753a1f6ff3183cc7",
+      "evidence_json": {
+        "model": {
+          "quote": "Compact modules CKK/CKR",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "linear actuator",
+          "url": "https://www.boschrexroth.com/en/de/media-details/68401393-19ff-4908-934e-02ae8e02b319",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CKK/CKR"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CKK/CKR"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CKK/CKR"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-7556-86b3-a4b992f2340f",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CKK/CKR-280",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/9c9045fe-0fb4-434f-ba63-eadd94b25932",
+      "source_locator": "HTML page",
+      "source_sha256": "9ace910530a166cb8b26ae8abcb01cb98481cf5f3455f76c83a4323a3abc1fad",
+      "evidence_json": {
+        "model": {
+          "quote": "CKK/CKR-280",
+          "locator": "Compact modules CKK/CKR-280 - The New Powerful Size - Strong, Compact, Precise"
+        },
+        "device_type": {
+          "quote": "linear actuator",
+          "url": "https://www.boschrexroth.com/en/de/media-details/9c9045fe-0fb4-434f-ba63-eadd94b25932",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CKK/CKR-280"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CKK/CKR-280"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CKK/CKR-280"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-7c93-99b0-258b2b4418c0",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "SFK4P , SFK-P",
+      "part_number": "R999002083",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/db479246-a7e6-4304-bbdb-f421d170495d",
+      "source_locator": "HTML page",
+      "source_sha256": "61a536243c8eceaf53c953619eeb2a4638481db274d8e7a1c5d9b354ff1d5db7",
+      "evidence_json": {
+        "model": {
+          "quote": "Keywords: SFK4P , SFK-P",
+          "locator": "Source text"
+        },
+        "part_number": {
+          "quote": "Document number: R999002083",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "electromechanical press",
+          "url": "https://www.boschrexroth.com/en/de/media-details/db479246-a7e6-4304-bbdb-f421d170495d",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SFK4P , SFK-P"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SFK4P , SFK-P"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SFK4P , SFK-P"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "R999002083"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-7d17-878c-a5f978fa3457",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Smart Function Kit Pressing",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/smart-servo-press-stable-processes/",
+      "source_locator": "HTML page",
+      "source_sha256": "3aa9ed15420b0187ede41a145f2a3c171b28a7fa4f64c22634028fa9698430c5",
+      "evidence_json": {
+        "model": {
+          "quote": "Smart Function Kit Pressing",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "electromechanical press",
+          "url": "https://www.boschrexroth.com/en/de/blog/smart-servo-press-stable-processes/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Smart Function Kit Pressing"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Smart Function Kit Pressing"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Smart Function Kit Pressing"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a30-72b8-88a5-826030bdfb23",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS 2plus transfer system",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/sensata-servo-press/",
+      "source_locator": "HTML page",
+      "source_sha256": "d3efdca3d63b94e62d32a0c2aaae2298417a9c73dbfdea8d7237d94a9bdbbbc5",
+      "evidence_json": {
+        "model": {
+          "quote": "the TS 2plus transfer system",
+          "locator": "Page 1"
+        },
+        "device_type": {
+          "quote": "transfer system",
+          "url": "https://www.boschrexroth.com/en/de/blog/sensata-servo-press/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS 2plus transfer system"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS 2plus transfer system"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS 2plus transfer system"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-79c5-b85f-e407199145f4",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "XM21 automation platform",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/sensata-servo-press/",
+      "source_locator": "HTML page",
+      "source_sha256": "d3efdca3d63b94e62d32a0c2aaae2298417a9c73dbfdea8d7237d94a9bdbbbc5",
+      "evidence_json": {
+        "model": {
+          "quote": "the XM21 automation platform as a common control system",
+          "locator": "Page 1"
+        },
+        "device_type": {
+          "quote": "control system",
+          "url": "https://www.boschrexroth.com/en/de/blog/sensata-servo-press/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "XM21 automation platform"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "XM21 automation platform"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "XM21 automation platform"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-7edc-9ad4-2c43ec75af51",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IMS 15, 20, 25 (BSHP)",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "11c47d9ac30d3dc989abec4fe5b1d104f3b9bb645e708a4e2dd076bfe2a8aca3",
+      "evidence_json": {
+        "model": {
+          "quote": "Integrated Measuring Systems IMS 15, 20, 25 (BSHP)",
+          "locator": "Source text (untrusted manufacturer evidence)"
+        },
+        "device_type": {
+          "quote": "integrated measuring system",
+          "url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IMS 15, 20, 25 (BSHP)"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IMS 15, 20, 25 (BSHP)"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IMS 15, 20, 25 (BSHP)"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-7be7-856c-987cf29ac5d0",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IMScompact 15, 20, 25 (BSHP)",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "11c47d9ac30d3dc989abec4fe5b1d104f3b9bb645e708a4e2dd076bfe2a8aca3",
+      "evidence_json": {
+        "model": {
+          "quote": "Integrated Measuring Systems IMScompact 15, 20, 25 (BSHP)",
+          "locator": "Source text (untrusted manufacturer evidence)"
+        },
+        "device_type": {
+          "quote": "integrated measuring system",
+          "url": "https://www.boschrexroth.com/en/de/c/integrated-measuring-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IMScompact 15, 20, 25 (BSHP)"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IMScompact 15, 20, 25 (BSHP)"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IMScompact 15, 20, 25 (BSHP)"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-77fc-b54b-7920bc6d26a7",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "EMC",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/lang-high-precision-milling-simple-automation/",
+      "source_locator": "HTML page",
+      "source_sha256": "8a0f872893dd9574f213d80893fd70e7dd13d1bcf4598ed4fe732415d8e6b593",
+      "evidence_json": {
+        "model": {
+          "quote": "uses an electromechanical cylinder EMC with a matching drive package.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "electromechanical cylinder",
+          "url": "https://www.boschrexroth.com/en/de/blog/lang-high-precision-milling-simple-automation/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "EMC"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "EMC"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "EMC"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-7a11-93fe-7bd511d31489",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IMS",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/lang-high-precision-milling-simple-automation/",
+      "source_locator": "HTML page",
+      "source_sha256": "8a0f872893dd9574f213d80893fd70e7dd13d1bcf4598ed4fe732415d8e6b593",
+      "evidence_json": {
+        "model": {
+          "quote": "such as the integrated measuring system IMS .",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "integrated measuring system",
+          "url": "https://www.boschrexroth.com/en/de/blog/lang-high-precision-milling-simple-automation/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IMS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IMS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IMS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-7aec-8a2b-9473ee324357",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Linear modules Small Modules Screw Driven SMS",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/small-modules/",
+      "source_locator": "HTML page",
+      "source_sha256": "01584b2a40a6462ec9d9f1e3aa7465fd6088fe497d585176be69f1677032d83d",
+      "evidence_json": {
+        "model": {
+          "quote": "Linear modules Small Modules Screw Driven SMS",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "linear actuator",
+          "url": "https://www.boschrexroth.com/en/de/c/small-modules/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Linear modules Small Modules Screw Driven SMS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Linear modules Small Modules Screw Driven SMS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Linear modules Small Modules Screw Driven SMS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a31-784e-9cff-4eb5d2c56b2b",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "EMC-HP 130, 160, 190, 220",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders/",
+      "source_locator": "HTML page",
+      "source_sha256": "f428d91aee295e6998bf08702c6841fb0d13617331d13b59fac8f6d7d0254c14",
+      "evidence_json": {
+        "model": {
+          "quote": "EMC-HP 130, 160, 190, 220",
+          "locator": "Key technical data"
+        },
+        "device_type": {
+          "quote": "electromechanical cylinder",
+          "url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "EMC-HP 130, 160, 190, 220"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "EMC-HP 130, 160, 190, 220"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "EMC-HP 130, 160, 190, 220"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-78a0-ae4f-2d11d04b1078",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "SFK-P",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders/",
+      "source_locator": "HTML page",
+      "source_sha256": "f428d91aee295e6998bf08702c6841fb0d13617331d13b59fac8f6d7d0254c14",
+      "evidence_json": {
+        "model": {
+          "quote": "Smart Function Kit Pressing (SFK-P)",
+          "locator": "FAQ: Smart Function Kit Pressing (SFK-P)"
+        },
+        "device_type": {
+          "quote": "electromechanical press",
+          "url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SFK-P"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SFK-P"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SFK-P"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-7ca1-aa88-3c3ea07b1a66",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX CORE compact control system",
+      "device_type": "PLC",
+      "version_kind": "firmware",
+      "version": "4.6 LTS",
+      "version_release_date": "2026-09-15",
+      "source_url": "https://www.boschrexroth.com/en/de/c/ctrlx-core/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca7d2bbb1784b640170e1223299c035a38d28de6b3be6aa712c6889e3a47ceab",
+      "evidence_json": {
+        "model": {
+          "quote": "the ctrlX CORE compact control system",
+          "locator": "Long-term high availability"
+        },
+        "device_type": {
+          "quote": "PLC",
+          "url": "https://www.boschrexroth.com/en/de/c/ctrlx-core/",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "4.6 LTS",
+          "url": "https://community.boschrexroth.com/ctrlx-automation-how-tos-qmglrz33/post/4-6-lts-release-notes-Z6DJL8XnhPfjX01",
+          "locator": "Release notes"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX CORE compact control system"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX CORE compact control system"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX CORE compact control system"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000001",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-7806-abd6-701a6002a374",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX DRIVE",
+      "device_type": "Drives and motion control",
+      "version_kind": "firmware",
+      "version": "AXS-V-06xx",
+      "source_url": "https://www.boschrexroth.com/en/de/c/drives/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca7d2bbb1784b640170e1223299c035a38d28de6b3be6aa712c6889e3a47ceab",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX DRIVE",
+          "locator": "Ecosystem and software"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/c/drives/",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "AXS-V-06xx",
+          "url": "https://docs.automation.boschrexroth.com/pdf/document/ID1675801_61012794",
+          "locator": "Release notes"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-75b0-aadc-87fc359b2ee3",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX DRIVE motors",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/industrial-automation/automation/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca7d2bbb1784b640170e1223299c035a38d28de6b3be6aa712c6889e3a47ceab",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX DRIVE motors",
+          "locator": "Motion and Drives Motors"
+        },
+        "device_type": {
+          "quote": "servo motor",
+          "url": "https://www.boschrexroth.com/en/de/industrial-automation/automation/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX DRIVE motors"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE motors"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE motors"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-7142-8fae-e70156857028",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Pressing Smart Function Kit",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+      "source_locator": "HTML page",
+      "source_sha256": "eea41a5b26f00f646a773209e3df155bf1b6b0076e5987343fdaaee2c455ac48",
+      "evidence_json": {
+        "model": {
+          "quote": "Whether it be assembly, pressing, joining, forming, checking or testing – the Pressing Smart Function Kit is suitable for many applications with forces up to 70 kN.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "electromechanical press",
+          "url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Pressing Smart Function Kit"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Pressing Smart Function Kit"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Pressing Smart Function Kit"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a32-7f9b-bfef-ff6c6c0b3f65",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "modular servo press",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+      "source_locator": "HTML page",
+      "source_sha256": "eea41a5b26f00f646a773209e3df155bf1b6b0076e5987343fdaaee2c455ac48",
+      "evidence_json": {
+        "model": {
+          "quote": "The modular servo press combines mechanical and electrical components with software and is the perfect basis for system integrators or end users with process know-how.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "electromechanical press",
+          "url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "modular servo press"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "modular servo press"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "modular servo press"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7e1b-9eb1-570e629022e6",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "PRC7000",
+      "device_type": "Process and machine control",
+      "source_url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+      "source_locator": "HTML page",
+      "source_sha256": "eea41a5b26f00f646a773209e3df155bf1b6b0076e5987343fdaaee2c455ac48",
+      "evidence_json": {
+        "model": {
+          "quote": "For example, with the welding controller PRC7000.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "welding controller",
+          "url": "https://www.boschrexroth.com/en/de/industrial-automation/joining-technology/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "PRC7000"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "PRC7000"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "PRC7000"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7f10-838b-2576a8d830b6",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VG/35",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+      "source_locator": "HTML page",
+      "source_sha256": "0919b7c24815ada3b8cc52bea530ed99cec2f2b5aedde33edd9ea38f1548b826",
+      "evidence_json": {
+        "model": {
+          "quote": "Axialkolben-Verstellpumpe A4VG/35",
+          "locator": "Produktkonfiguratoren"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VG/35"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VG/35"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VG/35"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7056-aed7-84f7acdba855",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RM",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+      "source_locator": "HTML page",
+      "source_sha256": "0919b7c24815ada3b8cc52bea530ed99cec2f2b5aedde33edd9ea38f1548b826",
+      "evidence_json": {
+        "model": {
+          "quote": "Load-Sensing-Steuerblock RM",
+          "locator": "Produktkonfiguratoren"
+        },
+        "device_type": {
+          "quote": "hydraulic valve",
+          "url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RM"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RM"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RM"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7e6a-a2e4-004020d2e57a",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MLR",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+      "source_locator": "HTML page",
+      "source_sha256": "0919b7c24815ada3b8cc52bea530ed99cec2f2b5aedde33edd9ea38f1548b826",
+      "evidence_json": {
+        "model": {
+          "quote": "MLR – Produktgeneration 3",
+          "locator": "Produktkonfiguratoren"
+        },
+        "device_type": {
+          "quote": "linear module",
+          "url": "https://www.boschrexroth.com/de/de/service-und-support/konfiguratoren-und-tools/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MLR"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MLR"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MLR"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7067-92ef-a3286b4e9cbf",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "RFT-OA",
+      "part_number": "98145",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/media-details/8c1e8b8e-814b-4367-8151-9958bf8b77ab",
+      "source_locator": "HTML page",
+      "source_sha256": "1be0d5759a77a3af91650e0de921b22a3a4b3574398fc347194f6464a0724c84",
+      "evidence_json": {
+        "model": {
+          "quote": "RFT-OA",
+          "locator": "Media Details Springen Sie zum Hauptinhalt Go back Rexroth oil aging test rig RFT-OA"
+        },
+        "part_number": {
+          "quote": "Dokument Nummer: 98145",
+          "locator": "Status des Dokuments: Active Medientyp: Datenblatt Dokument Nummer: 98145"
+        },
+        "device_type": {
+          "quote": "hydraulic test rig",
+          "url": "https://www.boschrexroth.com/de/de/media-details/8c1e8b8e-814b-4367-8151-9958bf8b77ab",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RFT-OA"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "98145"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7512-8b3a-25c7987ce8b9",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VSO-DS3",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+      "source_locator": "HTML page",
+      "source_sha256": "0a6847fec944774f3682e1a6e52dab89ca8c6bef71d1bc950fd65ac51d9f98c5",
+      "evidence_json": {
+        "model": {
+          "quote": "A4VSO-DS3",
+          "locator": "Products and Solutions"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VSO-DS3"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VSO-DS3"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VSO-DS3"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a33-7372-8d2c-54e67cbbe591",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VSG-DS3",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+      "source_locator": "HTML page",
+      "source_sha256": "0a6847fec944774f3682e1a6e52dab89ca8c6bef71d1bc950fd65ac51d9f98c5",
+      "evidence_json": {
+        "model": {
+          "quote": "A4VSG-DS3",
+          "locator": "Products and Solutions"
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VSG-DS3"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VSG-DS3"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VSG-DS3"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-7906-98b9-20fc2513810d",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MLC-SEK",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+      "source_locator": "HTML page",
+      "source_sha256": "0a6847fec944774f3682e1a6e52dab89ca8c6bef71d1bc950fd65ac51d9f98c5",
+      "evidence_json": {
+        "model": {
+          "quote": "MLC-SEK",
+          "locator": "Products and Solutions"
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MLC-SEK"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MLC-SEK"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MLC-SEK"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-712f-b4e1-e32a5ddc8a5d",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VSO250DS2",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+      "source_locator": "HTML page",
+      "source_sha256": "0a6847fec944774f3682e1a6e52dab89ca8c6bef71d1bc950fd65ac51d9f98c5",
+      "evidence_json": {
+        "model": {
+          "quote": "A4VSO250DS2",
+          "locator": "Diango & Diementhal, Germany Revolving Stage Secondary controlled drive system"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VSO250DS2"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VSO250DS2"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VSO250DS2"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-7789-a991-90b18cfb1b60",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VSG 125 DS2",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+      "source_locator": "HTML page",
+      "source_sha256": "0a6847fec944774f3682e1a6e52dab89ca8c6bef71d1bc950fd65ac51d9f98c5",
+      "evidence_json": {
+        "model": {
+          "quote": "2* A4VSG 125 DS2 tandem units",
+          "locator": "De Beers, South Africa Linear Cable Engine LCE Secondary controlled traction winch."
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/c/secondary-control/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VSG 125 DS2"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VSG 125 DS2"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VSG 125 DS2"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-7460-9287-b2b99ca20d2b",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM",
+      "device_type": "Drives and motion control",
+      "version_kind": "firmware",
+      "version": "02/03/04/05/06/07/08",
+      "version_status": "unknown",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+      "source_locator": "HTML page",
+      "source_sha256": "c15bdce5307c8a74ae57d67da8e27d4d085dd34192e54d1991cb5d21873fe4fc",
+      "evidence_json": {
+        "model": {
+          "quote": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM version 02/03/04/05/06/07/08",
+          "locator": "HTML page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IndraDrive C/M MPB/MPD/MPH/MPC/MPM"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-770c-8640-c777d78b6789",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM",
+      "device_type": "Drives and motion control",
+      "version_kind": "firmware",
+      "version": "16/17/18/19/20/21",
+      "version_status": "unknown",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+      "source_locator": "HTML page",
+      "source_sha256": "c15bdce5307c8a74ae57d67da8e27d4d085dd34192e54d1991cb5d21873fe4fc",
+      "evidence_json": {
+        "model": {
+          "quote": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM version 16/17/18/19/20/21",
+          "locator": "HTML page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IndraDrive Cs/C/M/Mi/ML MPE/MPB/MPC/MPM"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-7de7-9419-acbb945db3b9",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "EcoDrive Cs MGP",
+      "device_type": "Drives and motion control",
+      "version_kind": "firmware",
+      "version": "01",
+      "version_status": "unknown",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+      "source_locator": "HTML page",
+      "source_sha256": "c15bdce5307c8a74ae57d67da8e27d4d085dd34192e54d1991cb5d21873fe4fc",
+      "evidence_json": {
+        "model": {
+          "quote": "EcoDrive Cs MGP",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "EcoDrive Cs MGP version 01",
+          "locator": "HTML page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "EcoDrive Cs MGP"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "EcoDrive Cs MGP"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "EcoDrive Cs MGP"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a34-707f-b2d7-97b43e74df7c",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "HDx",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+      "source_locator": "HTML page",
+      "source_sha256": "c15bdce5307c8a74ae57d67da8e27d4d085dd34192e54d1991cb5d21873fe4fc",
+      "evidence_json": {
+        "model": {
+          "quote": "Hydraulic Drive (HDx)",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "drive controller",
+          "url": "https://www.boschrexroth.com/en/de/media-details/fe4412ab-adf5-497c-ae43-55ff0a1ab127",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "HDx"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "HDx"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "HDx"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a37-743d-a15f-7ff04643c038",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX DRIVE",
+      "part_number": "R914505575",
+      "device_type": "Drives and motion control",
+      "version_component": "ctrlX DRIVE firmware",
+      "version_kind": "firmware",
+      "version": "AXS-V-06xx and newer",
+      "version_status": "unknown",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/8cd990a1-8a76-4323-baf1-598f224fcf35",
+      "source_locator": "HTML page",
+      "source_sha256": "98aeac7b5c4f7bbe1d1fee3e73b75281779946d5bf6eec2b8a5b239aee016f19",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX DRIVE",
+          "locator": "Source text"
+        },
+        "part_number": {
+          "quote": "Media type: Software Material number: R914505575, R914508457, R914517909, R914516265, R914504770, R914505255, R914508465, R914508466, R914512026, R914514218, ...",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/media-details/8cd990a1-8a76-4323-baf1-598f224fcf35",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "for use with ctrlX DRIVE firmware versions AXS-V-06xx and newer.",
+          "locator": "Source text"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "R914505575"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a37-7c51-b288-3c8870695780",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Oil Condition Monitoring-Terminal (OCM-T)",
+      "device_type": "Measurement and monitoring",
+      "source_url": "https://www.boschrexroth.com/en/de/media-details/8f623bd5-4979-4b9c-94c3-d08e70fdd686",
+      "source_locator": "HTML page",
+      "source_sha256": "40a8fe55bf1a1016db9ae9a5e5122d46c88a74aba843e1856f6898c93d7456d1",
+      "evidence_json": {
+        "model": {
+          "quote": "Oil Condition Monitoring-Terminal (OCM-T)",
+          "locator": "Oil Condition Monitoring-Terminal (OCM-T) | Factsheet"
+        },
+        "device_type": {
+          "quote": "condition monitoring device",
+          "url": "https://www.boschrexroth.com/en/de/media-details/8f623bd5-4979-4b9c-94c3-d08e70fdd686",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Oil Condition Monitoring-Terminal (OCM-T)"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Oil Condition Monitoring-Terminal (OCM-T)"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Oil Condition Monitoring-Terminal (OCM-T)"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-7835-80ca-b896d6d907a7",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS-HS 101-1X",
+      "part_number": "r961008522",
+      "device_type": "Other",
+      "source_url": "https://www.boschrexroth.com/en/de/p/r961008522/",
+      "source_locator": "HTML page",
+      "source_sha256": "dd7503d877b6522f3f3153e7e768436ae49fe262f86b32aa0da4fba1011f64b3",
+      "evidence_json": {
+        "model": {
+          "quote": "EQUIPMENT SET TS-HS 101-1X r961008522",
+          "locator": "HTML page"
+        },
+        "part_number": {
+          "quote": "EQUIPMENT SET TS-HS 101-1X r961008522",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "training system",
+          "url": "https://www.boschrexroth.com/en/de/p/r961008522/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS-HS 101-1X"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS-HS 101-1X"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS-HS 101-1X"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "r961008522"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000018",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-7724-9fdd-e15254b6d347",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS-HS 201-1X",
+      "part_number": "r961009458",
+      "device_type": "Other",
+      "source_url": "https://www.boschrexroth.com/en/de/p/r961009458/",
+      "source_locator": "HTML page",
+      "source_sha256": "c3dbf2a85dd3c9f2f99e6cd63cd84fd7fcc7a6c5772f10e3c60a2a5da44024f3",
+      "evidence_json": {
+        "model": {
+          "quote": "EQUIPMENT SET TS-HS 201-1X",
+          "locator": "HTML page"
+        },
+        "part_number": {
+          "quote": "r961009458",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "training system",
+          "url": "https://www.boschrexroth.com/en/de/p/r961009458/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS-HS 201-1X"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS-HS 201-1X"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS-HS 201-1X"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "r961009458"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000018",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-74fb-a5a7-8ed3a74c6e3d",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Electromechanical cylinders EMC",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders-emc/",
+      "source_locator": "HTML page",
+      "source_sha256": "bb09020c4838eaed40716138e7e267c70fb368bcc6a0c5b3cdd5b8144180542a",
+      "evidence_json": {
+        "model": {
+          "quote": "Electromechanical cylinders EMC",
+          "locator": "slide 1 of 1"
+        },
+        "device_type": {
+          "quote": "electromechanical cylinder",
+          "url": "https://www.boschrexroth.com/en/de/c/electromechanical-cylinders-emc/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Electromechanical cylinders EMC"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Electromechanical cylinders EMC"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Electromechanical cylinders EMC"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-7a1c-a297-186902aaece5",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "ctrlX DRIVE cabinet-free",
+      "device_type": "Drives and motion control",
+      "version_kind": "firmware",
+      "version": "AXS-V-06xx",
+      "source_url": "https://www.boschrexroth.com/en/de/c/drives/",
+      "source_locator": "HTML page",
+      "source_sha256": "058024b623df79fa93c7ecb6a0d467114ae154539ace1a72c145b6b2c571f6c4",
+      "evidence_json": {
+        "model": {
+          "quote": "ctrlX DRIVE cabinet-free – The future of servo drive technology",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "servo drive",
+          "url": "https://www.boschrexroth.com/en/de/c/drives/",
+          "locator": "Manufacturer product page"
+        },
+        "version": {
+          "quote": "AXS-V-06xx",
+          "url": "https://docs.automation.boschrexroth.com/pdf/document/ID1675801_61012794",
+          "locator": "Release notes"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "ctrlX DRIVE cabinet-free"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE cabinet-free"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "ctrlX DRIVE cabinet-free"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-723c-8cbc-d06164504c49",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "NEXO",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/c/tightening-technology/",
+      "source_locator": "HTML page",
+      "source_sha256": "f6b15646b566403940b91c8013b1883ebd527ae516dfeb2e458af2878d794c14",
+      "evidence_json": {
+        "model": {
+          "quote": "The new NEXO cordless nutrunner",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "nutrunner",
+          "url": "https://www.boschrexroth.com/en/de/c/tightening-technology/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "NEXO"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "NEXO"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "NEXO"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-70b3-baf5-47b4eef0cd8d",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS 2Booster",
+      "device_type": "Mechanical equipment",
+      "description": "Speed up your transfer times between processes by integrating the new TS 2Booster into your TS 2 plus Transfer System.",
+      "source_url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca683c2fcc06d5128378301761d1e32ff411759e9e37bec310e2d9ad003365b7",
+      "evidence_json": {
+        "model": {
+          "quote": "TS 2Booster",
+          "locator": "Source text"
+        },
+        "description": {
+          "quote": "Speed up your transfer times between processes by integrating the new TS 2Booster into your TS 2 plus Transfer System.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "transfer system",
+          "url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS 2Booster"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS 2Booster"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS 2Booster"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a38-7159-879d-c15bcdfe29fe",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS 2 plus Transfer System",
+      "device_type": "Mechanical equipment",
+      "description": "The TS2plus transfer system enables a 50-second cycle time in wallbox production, combining high-volume output with maximum variant diversity.",
+      "source_url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca683c2fcc06d5128378301761d1e32ff411759e9e37bec310e2d9ad003365b7",
+      "evidence_json": {
+        "model": {
+          "quote": "TS 2 plus Transfer System",
+          "locator": "Source text"
+        },
+        "description": {
+          "quote": "The TS2plus transfer system enables a 50-second cycle time in wallbox production, combining high-volume output with maximum variant diversity.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "transfer system",
+          "url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS 2 plus Transfer System"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS 2 plus Transfer System"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS 2 plus Transfer System"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-72cf-b290-3f7b799d5cb3",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "VarioFlow plus",
+      "device_type": "Mechanical equipment",
+      "description": "VarioFlow plus optimizes transport in mozzarella production at the Zott dairy.",
+      "source_url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca683c2fcc06d5128378301761d1e32ff411759e9e37bec310e2d9ad003365b7",
+      "evidence_json": {
+        "model": {
+          "quote": "VarioFlow plus",
+          "locator": "Source text"
+        },
+        "description": {
+          "quote": "Food Industry Hygienic and efficient: VarioFlow plus optimizes transport in mozzarella production at the Zott dairy.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "conveyor system",
+          "url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "VarioFlow plus"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "VarioFlow plus"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "VarioFlow plus"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-7eef-8939-79f15c4bad3e",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "VarioFlow",
+      "device_type": "Mechanical equipment",
+      "description": "VarioFlow as a suspended conveyor to transport vehicle headliners in the automotive industry.",
+      "source_url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+      "source_locator": "HTML page",
+      "source_sha256": "ca683c2fcc06d5128378301761d1e32ff411759e9e37bec310e2d9ad003365b7",
+      "evidence_json": {
+        "model": {
+          "quote": "VarioFlow",
+          "locator": "Source text"
+        },
+        "description": {
+          "quote": "Automotive industry VarioFlow as a suspended conveyor to transport vehicle headliners in the automotive industry.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "conveyor system",
+          "url": "https://www.boschrexroth.com/en/de/c/conveyor-and-transfer-systems/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "VarioFlow"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "VarioFlow"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "VarioFlow"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-7699-89a4-fe1410d07302",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "KWC",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/ics/configurators/lt-runnerblocks/?materialnumber=R1_FW_9999&sessionEntry=true&pi=A6A2437D-BBC0-4C7F-4D2AF3A7E9070578_ICS_8801",
+      "source_locator": "HTML page",
+      "source_sha256": "82f246599379ea25c0c58330f0d207d337a221451239276808114f97b6a15d68",
+      "evidence_json": {
+        "model": {
+          "quote": "KWC High precision BSHP ball runner block generation C",
+          "locator": "page content"
+        },
+        "device_type": {
+          "quote": "linear guide",
+          "url": "https://www.boschrexroth.com/ics/configurators/lt-runnerblocks/?materialnumber=R1_FW_9999&sessionEntry=true&pi=A6A2437D-BBC0-4C7F-4D2AF3A7E9070578_ICS_8801",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KWC"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KWC"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KWC"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-77fe-b560-16f801d18cc4",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Compactmodule Linearmodule Gen3",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/c/lineartechnik/",
+      "source_locator": "HTML page",
+      "source_sha256": "19e7b20a23f192bc8422d46e4c00d4fd790f21d07a70fa31ede306ff917c1749",
+      "evidence_json": {
+        "model": {
+          "quote": "Compactmodule Linearmodule Gen3 Präzisionsmodule",
+          "locator": "slide 1 to 3 of 23"
+        },
+        "device_type": {
+          "quote": "linear module",
+          "url": "https://www.boschrexroth.com/de/de/c/lineartechnik/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Compactmodule Linearmodule Gen3"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Compactmodule Linearmodule Gen3"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Compactmodule Linearmodule Gen3"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-7198-8ad5-22026c8ec987",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "SP-Pumpenbaureihe",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/service-und-support/service/hagglunds-service/",
+      "source_locator": "HTML page",
+      "source_sha256": "189a7114e8c83e48d3a2ea63c7bf9ca1b1e6d8a79c385b0736ba15859dce9075",
+      "evidence_json": {
+        "model": {
+          "quote": "Sichere Top-Leistung – jetzt auf die neue Hägglunds SP-Pumpenbaureihe umsteigen",
+          "locator": "slide 1 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/de/de/service-und-support/service/hagglunds-service/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SP-Pumpenbaureihe"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SP-Pumpenbaureihe"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SP-Pumpenbaureihe"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-7bd1-9473-3a937551c84d",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "MKK/ MKR/ MLR",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/de/de/c/auswahl-und-auslegungstool-linselect/",
+      "source_locator": "HTML page",
+      "source_sha256": "cca04987937ddfcd2453145955637a6d4c8db1f94a01c6ebe80422f675d28537",
+      "evidence_json": {
+        "model": {
+          "quote": "Linearmodule MKK/ MKR/ MLR",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "linear module",
+          "url": "https://www.boschrexroth.com/de/de/c/auswahl-und-auslegungstool-linselect/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "MKK/ MKR/ MLR"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "MKK/ MKR/ MLR"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "MKK/ MKR/ MLR"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a39-72d4-b8fd-1d91d1d19d52",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "DS3 A4VSO series 10 and 30",
+      "part_number": "RE 92059",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=92059&dnavs=DC_isActive%3Adc_asset_status_active&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "b4b24c86c0af48b01c4b73b38cfa628105ad587357e97658aa22bdfa2e28668b",
+      "evidence_json": {
+        "model": {
+          "quote": "DS3 A4VSO series 10 and 30",
+          "locator": "slide 2 of 3"
+        },
+        "part_number": {
+          "quote": "RE 92059",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic pump",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=92059&dnavs=DC_isActive%3Adc_asset_status_active&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DS3 A4VSO series 10 and 30"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DS3 A4VSO series 10 and 30"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DS3 A4VSO series 10 and 30"
+            }
+          ]
+        },
+        {
+          "field": "part_number",
+          "operator": "equals",
+          "value": "RE 92059"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-780c-8e7f-453d45d4fd89",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "A4VSG series 10 and 3x RE 92063",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/search.html?q=92063&dnavs=DC_isActive%3Adc_asset_status_active&origin=direct&s=download",
+      "source_locator": "HTML page",
+      "source_sha256": "22a81a8121e6102c5a926d9c1d3744d95d93978ad4efe6449a9dfb4f241e0ff0",
+      "evidence_json": {
+        "model": {
+          "quote": "Axial piston units with DS3 secondary control A4VSG series 10 and 3x RE 92063",
+          "locator": "slide 2 of 3"
+        },
+        "device_type": {
+          "quote": "hydraulic motor",
+          "url": "https://www.boschrexroth.com/en/de/search.html?q=92063&dnavs=DC_isActive%3Adc_asset_status_active&origin=direct&s=download",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "A4VSG series 10 and 3x RE 92063"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "A4VSG series 10 and 3x RE 92063"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "A4VSG series 10 and 3x RE 92063"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-7f33-8c6c-c8336a560780",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS 5",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/dc/getting-batteries-into-the-circular-economy/",
+      "source_locator": "HTML page",
+      "source_sha256": "d6cb582fa75b0e02e9b0281e303fd2cfbd18c5a37857ca04964875bc17d0c88d",
+      "evidence_json": {
+        "model": {
+          "quote": "TS 5 transfer system",
+          "locator": "Projects for Factory Automation at Bosch Rexroth"
+        },
+        "device_type": {
+          "quote": "transfer system",
+          "url": "https://www.boschrexroth.com/en/dc/getting-batteries-into-the-circular-economy/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS 5"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS 5"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS 5"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-78b4-b529-adf14a785434",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "SHA",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+      "source_locator": "HTML page",
+      "source_sha256": "10f9ad0af157a0e1fc93e0f6d2b6f023369661a77de50f24d8c16a66b57ae91d",
+      "evidence_json": {
+        "model": {
+          "quote": "servohydraulic axes (SHA)",
+          "locator": "Compact drives for small hydrogen systems"
+        },
+        "device_type": {
+          "quote": "servo-hydraulic axis",
+          "url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SHA"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SHA"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SHA"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-7fe0-8dac-cb9d4c6370bb",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CGV double rod cylinder",
+      "device_type": "Sensor / actuator",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+      "source_locator": "HTML page",
+      "source_sha256": "10f9ad0af157a0e1fc93e0f6d2b6f023369661a77de50f24d8c16a66b57ae91d",
+      "evidence_json": {
+        "model": {
+          "quote": "CGV double rod cylinder",
+          "locator": "Double rod cylinder for medium hydrogen volumes"
+        },
+        "device_type": {
+          "quote": "hydraulic cylinder",
+          "url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CGV double rod cylinder"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CGV double rod cylinder"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CGV double rod cylinder"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-75f5-acfd-1104d749faf3",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CytroCore compressor drive",
+      "device_type": "Drives and motion control",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+      "source_locator": "HTML page",
+      "source_sha256": "10f9ad0af157a0e1fc93e0f6d2b6f023369661a77de50f24d8c16a66b57ae91d",
+      "evidence_json": {
+        "model": {
+          "quote": "75 kW CytroCore compressor drive",
+          "locator": "Your Benefits: Compact servo-hydraulic system solution with electric and hydraulic drive technology and software for positioning a double rod cylinder"
+        },
+        "device_type": {
+          "quote": "compressor drive",
+          "url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CytroCore compressor drive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CytroCore compressor drive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CytroCore compressor drive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000a",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-7a9c-a874-0a6da24d0faf",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "CryoPump Station",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+      "source_locator": "HTML page",
+      "source_sha256": "10f9ad0af157a0e1fc93e0f6d2b6f023369661a77de50f24d8c16a66b57ae91d",
+      "evidence_json": {
+        "model": {
+          "quote": "CryoPump Station",
+          "locator": "CryoPump Station with integrated cryogenic pump"
+        },
+        "device_type": {
+          "quote": "cryogenic pump",
+          "url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CryoPump Station"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CryoPump Station"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CryoPump Station"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3a-7a2c-b9de-8f791cca3bf8",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "Max Compression 2.0 compressor",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+      "source_locator": "HTML page",
+      "source_sha256": "10f9ad0af157a0e1fc93e0f6d2b6f023369661a77de50f24d8c16a66b57ae91d",
+      "evidence_json": {
+        "model": {
+          "quote": "Max Compression 2.0 compressor",
+          "locator": "Bosch Rexroth & Maximator Hydrogen: Innovative solutions for H2 refueling stations"
+        },
+        "device_type": {
+          "quote": "compressor",
+          "url": "https://www.boschrexroth.com/en/de/industries/hydrogen/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Max Compression 2.0 compressor"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Max Compression 2.0 compressor"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Max Compression 2.0 compressor"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3b-7706-8517-ffef17c50eee",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "VarioFlow plus chain conveyor system",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/transport-solutions-for-the-packaging-industry/",
+      "source_locator": "HTML page",
+      "source_sha256": "f19823ac0ff2934f47b0e81966efcad9d40d0c7589d856c8bd424aede1ff4a14",
+      "evidence_json": {
+        "model": {
+          "quote": "the VarioFlow plus chain conveyor system from Bosch Rexroth",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "conveyor system",
+          "url": "https://www.boschrexroth.com/en/de/blog/transport-solutions-for-the-packaging-industry/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "VarioFlow plus chain conveyor system"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "VarioFlow plus chain conveyor system"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "VarioFlow plus chain conveyor system"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f24-1a3b-7ff9-a2dc-58fac510b286",
+    "manufacturer_id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "manufacturer": "Bosch Rexroth",
+      "model": "TS2plus",
+      "device_type": "Mechanical equipment",
+      "source_url": "https://www.boschrexroth.com/en/de/blog/fmt-local-expertise-for-global-technology/",
+      "source_locator": "HTML page",
+      "source_sha256": "966c6db4b69e133460500f314d77174f9692d7eab1eb62ea6b5153089f01f129",
+      "evidence_json": {
+        "model": {
+          "quote": "TS2plus transfer system",
+          "locator": "How the TS2plus transfer system from Bosch Rexroth is revolutionising e-mobility manufacturing"
+        },
+        "device_type": {
+          "quote": "transfer system",
+          "url": "https://www.boschrexroth.com/en/de/blog/fmt-local-expertise-for-global-technology/",
+          "locator": "Manufacturer product page"
+        }
+      }
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "TS2plus"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "TS2plus"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "TS2plus"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  }
+]

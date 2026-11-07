@@ -1,0 +1,2506 @@
+[
+  {
+    "id": "01a18c34-ef60-7dcd-8230-8a94621205c3",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KR C5",
+      "model": "KR C5 for iiQKA.OS2",
+      "device_type": "Robotics",
+      "description": "The KR C5 for iiQKA.OS2 is an industrial robot controller designed for versatile automation environments. It features Ethernet and digital IO interfaces, optional NVIDIA extension, a modular cabinet system, and safety and cybersecurity features.",
+      "device_function": "Controls industrial robots.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "product_family": {
+          "quote": "Robot controllers\nKR C5 for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "model": {
+          "quote": "KR C5 for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_type": {
+          "quote": "Versatile, powerful and future-orientated industrial robot controller",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "description": {
+          "quote": "The KR C5 for iiQKA.OS2 impresses as an innovative robot controller for all applications - with maximum reliability, versatility, efficiency and maximum safety.",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_function": {
+          "quote": "Versatile, powerful and future-orientated industrial robot controller",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller",
+      "source_sha256": "4b6a244c0cd933c45001b29113bbe426fb28515e8a1960cca89b94c9f37d30ee",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KR C5"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c34-efd0-7228-8791-163e145d6983",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KR C5",
+      "model": "KR C5 micro for iiQKA.OS2",
+      "device_type": "Robotics",
+      "description": "An ultra-thin controller for small robotics that supports current fieldbus standards and is described as powerful, AI-capable, and standard-compliant.",
+      "device_function": "Controls small robotics.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "product_family": {
+          "quote": "KR C5 micro for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "model": {
+          "quote": "KR C5 micro for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_type": {
+          "quote": "Ultra-thin controller for small robotics supports all current fieldbus standards, powerful, AI-capable and standard-compliant.",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "description": {
+          "quote": "Ultra-thin controller for small robotics supports all current fieldbus standards, powerful, AI-capable and standard-compliant.",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_function": {
+          "quote": "Ultra-thin controller for small robotics",
+          "url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-de/products/robot-systems/robot-controllers/kr-c5_robot_controller",
+      "source_sha256": "4b6a244c0cd933c45001b29113bbe426fb28515e8a1960cca89b94c9f37d30ee",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KR C5"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5 micro for iiQKA.OS2"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5 micro for iiQKA.OS2"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5 micro for iiQKA.OS2"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c35-4c42-7cef-93b3-6bbfced8e72a",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA Robotics",
+      "model": "KR C5",
+      "device_type": "Robotics",
+      "description": "A robot controller for use with iiQKA.OS2, designed for diverse applications. It features a compact design, Ethernet and digital I/O interfaces, and modular cabinet-system capabilities.",
+      "device_function": "Controls industrial robots.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Malaysia Sales",
+          "url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung"
+        },
+        "model": {
+          "quote": "适用于 iiQKA.OS2 的 KR C5",
+          "url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung"
+        },
+        "device_type": {
+          "quote": "适用于 iiQKA.OS2 的 KR C5 作为一款创新的机器人控制器",
+          "url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung"
+        },
+        "description": {
+          "quote": "其创新的紧凑设计，能够无缝集成于多样化的自动化环境中",
+          "url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung"
+        },
+        "device_function": {
+          "quote": "适用于 iiQKA.OS2 的 KR C5 作为一款创新的机器人控制器",
+          "url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/robotics-systems/robot-controllers/kr-c5-2-robotersteuerung",
+      "source_sha256": "f067dd37ad7c081acfac1c560505b681380bc87c6ba1bc30c0806d4c2715e7b1",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-203a-7503-be36-4a8ee38eeb39",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KMP",
+      "model": "KMP 250P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact top-loading platform for automated logistics processes; a cleanroom version is also available.",
+      "device_function": "Automates internal material transport and logistics processes.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics China Co., Ltd.",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "product_family": {
+          "quote": "KMP 250P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 250P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "自主移动机器人 (AMR)",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "description": {
+          "quote": "紧凑型顶载平台，助力物流流程自动化 – 另提供洁净室版本。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "实现厂内物料流自动化，减少人工搬运，持续提升生产效率。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot",
+      "source_sha256": "bd30ec78414786bd518e3bd05c1b39d0b59afc4e0a0a6fd88bf2dd6bb8ccc3ff",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KMP"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-2049-7ea0-b960-6ff8affd3340",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KMP",
+      "model": "KMP 600P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact versatile robot for confined production spaces and transport of mesh containers.",
+      "device_function": "Automates internal material transport and logistics processes.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics China Co., Ltd.",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "product_family": {
+          "quote": "KMP 600P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 600P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "自主移动机器人 (AMR)",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "description": {
+          "quote": "紧凑型全能机器人，轻松应对狭小生产空间 – 性能强劲且经济高效。网格箱运输的理想选择。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "实现厂内物料流自动化，减少人工搬运，持续提升生产效率。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot",
+      "source_sha256": "bd30ec78414786bd518e3bd05c1b39d0b59afc4e0a0a6fd88bf2dd6bb8ccc3ff",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KMP"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-2056-7303-8860-bb372863fe6e",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KMP",
+      "model": "KMP 600i",
+      "device_type": "Robotics",
+      "description": "Intelligent, flexible, stable, efficient, safe, and reliable mobile robot platform for logistics and manufacturing.",
+      "device_function": "Automates internal material transport and logistics processes.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics China Co., Ltd.",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "product_family": {
+          "quote": "KMP 600i",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 600i",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "自主移动机器人 (AMR)",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "description": {
+          "quote": "智能灵活、稳定高效、安全可靠：KMP 600i 将赋能客户智能物流及制造升级",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "实现厂内物料流自动化，减少人工搬运，持续提升生产效率。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot",
+      "source_sha256": "bd30ec78414786bd518e3bd05c1b39d0b59afc4e0a0a6fd88bf2dd6bb8ccc3ff",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KMP"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 600i"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 600i"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 600i"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-2062-766e-843c-27be87ebae07",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KMP",
+      "model": "KMP 1500P diffDrive",
+      "device_type": "Robotics",
+      "description": "Mobile robot platform for heavy loads on various carriers, suitable for narrow aisles and pallet transport.",
+      "device_function": "Automates internal material transport and logistics processes.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics China Co., Ltd.",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "product_family": {
+          "quote": "KMP 1500P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 1500P diffDrive",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "自主移动机器人 (AMR)",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "description": {
+          "quote": "移动机器人平台，可轻松搬运各类载具上的重载货物 - 狭窄通道亦能畅通无阻。托盘运输的理想选择。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "实现厂内物料流自动化，减少人工搬运，持续提升生产效率。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot",
+      "source_sha256": "bd30ec78414786bd518e3bd05c1b39d0b59afc4e0a0a6fd88bf2dd6bb8ccc3ff",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KMP"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-2071-7d46-ab3c-c597dffa188b",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KMP",
+      "model": "KMP 3000P omni",
+      "device_type": "Robotics",
+      "description": "Omnidirectional mobile platform for transporting large, heavy products in production and logistics, including battery modules.",
+      "device_function": "Automates internal material transport and logistics processes.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics China Co., Ltd.",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "product_family": {
+          "quote": "KMP 3000P omni",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 3000P omni",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "自主移动机器人 (AMR)",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "description": {
+          "quote": "全向移动运输平台，轻松驾驭生产及物流环节中的大型重型产品 – 电池模块运输的理想解决方案。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "实现厂内物料流自动化，减少人工搬运，持续提升生产效率。",
+          "url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/zh-my/products/autonomous-mobile-robots-amr/topload-transportrobot",
+      "source_sha256": "bd30ec78414786bd518e3bd05c1b39d0b59afc4e0a0a6fd88bf2dd6bb8ccc3ff",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KMP"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-87d7-7c18-bf58-d80c0ccb3a72",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "Topload transport robots",
+      "model": "KMP 250P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact Topload platform for automating logistics applications; a cleanroom variant is also available.",
+      "device_function": "Autonomous transport of materials in logistics applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "product_family": {
+          "quote": "Topload transport robots",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "model": {
+          "quote": "KMP 250P diffDrive",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_type": {
+          "quote": "Our mobile robot platforms (AMR) have been developed for a wide range of different tasks and product requirements in industry",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "description": {
+          "quote": "Compact Topload platform for the automation of logistics applications – also available in a cleanroom variant.",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_function": {
+          "quote": "Automate in-house material flows, reduce manual transport",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots",
+      "source_sha256": "2d1a369628ad1422f1a96d73629c75db29818bb637bef474b57c7a7bdee89b4d",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "Topload transport robots"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-87ef-733a-9dd2-70ca88b058f6",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "Topload transport robots",
+      "model": "KMP 600P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact all-rounder for confined manufacturing areas, described as powerful and cost-effective and suited to transporting lattice boxes. Payload: 600 kg.",
+      "device_function": "Autonomous transport of materials and lattice boxes in manufacturing and logistics.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "product_family": {
+          "quote": "Topload transport robots",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "model": {
+          "quote": "KMP 600P diffDrive",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_type": {
+          "quote": "Our mobile robot platforms (AMR) have been developed for a wide range of different tasks and product requirements in industry",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "description": {
+          "quote": "The compact all-rounder for confined areas in manufacturing – powerful and cost-effective. Perfect for transporting lattice boxes.\n\nPayload: 600 kg",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_function": {
+          "quote": "Automate in-house material flows, reduce manual transport",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots",
+      "source_sha256": "2d1a369628ad1422f1a96d73629c75db29818bb637bef474b57c7a7bdee89b4d",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "Topload transport robots"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-8800-73f2-a254-b7cb1703a9e1",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "Topload transport robots",
+      "model": "KMP 1500P diffDrive",
+      "device_type": "Robotics",
+      "description": "Mobile robot platform for transporting heavy loads on various load carriers, including in narrow aisles; described as ideal for pallet movement. Payload: 1500 kg.",
+      "device_function": "Autonomous transport of heavy loads and pallets.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "product_family": {
+          "quote": "Topload transport robots",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "model": {
+          "quote": "KMP 1500P diffDrive",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_type": {
+          "quote": "Our mobile robot platforms (AMR) have been developed for a wide range of different tasks and product requirements in industry",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "description": {
+          "quote": "Mobile robot platform that transports heavy loads on various load carriers – even in narrow aisles. Ideal for pallet movement.\n\nPayload: 1500 kg",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_function": {
+          "quote": "Automate in-house material flows, reduce manual transport",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots",
+      "source_sha256": "2d1a369628ad1422f1a96d73629c75db29818bb637bef474b57c7a7bdee89b4d",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "Topload transport robots"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c36-8815-7d04-a8e5-d03e9c29327b",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "Topload transport robots",
+      "model": "KMP 3000P omni",
+      "device_type": "Robotics",
+      "description": "Omnidirectional transport platform for moving large and heavy products in production and logistics; described as ideal for battery modules. Payload: 3000 kg.",
+      "device_function": "Autonomous omnidirectional transport of large and heavy products.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "product_family": {
+          "quote": "Topload transport robots",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "model": {
+          "quote": "KMP 3000P omni",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_type": {
+          "quote": "Our mobile robot platforms (AMR) have been developed for a wide range of different tasks and product requirements in industry",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "description": {
+          "quote": "Omnidirectional transport platform that moves large and heavy products in production and logistics – ideal for battery modules.\n\nPayload: 3000 kg",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        },
+        "device_function": {
+          "quote": "Automate in-house material flows, reduce manual transport",
+          "url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/amr-autonomous-mobile-robotics/topload-transport-robots",
+      "source_sha256": "2d1a369628ad1422f1a96d73629c75db29818bb637bef474b57c7a7bdee89b4d",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "Topload transport robots"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a779-73d0-acf6-2862ada9c6f1",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 3 R760",
+      "device_type": "Robotics",
+      "description": "An industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with a 3 kg total load and 760 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 3 R760",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 3 R760"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 3 R760"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 3 R760"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a79c-7a41-aa00-5bd36197f450",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 6 R1300",
+      "device_type": "Robotics",
+      "description": "An industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with a 6 kg load and 1300 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 6 R1300",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 6 R1300"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 6 R1300"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 6 R1300"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a7b4-7aab-8240-dc4d5938f51d",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 8 R930",
+      "device_type": "Robotics",
+      "description": "An industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with an 8 kg load and 930 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 8 R930",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 8 R930"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 8 R930"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 8 R930"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a7cd-7a5b-be74-a8128ecab407",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 11 R1300",
+      "device_type": "Robotics",
+      "description": "An industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with an 11 kg load and 1300 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 11 R1300",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a7e0-7620-822a-f7a4a6576b29",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 11 R1300 CR",
+      "device_type": "Robotics",
+      "description": "A cleanroom-version industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with an 11 kg load and 1300 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 11 R1300 CR",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300 CR"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300 CR"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 11 R1300 CR"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c38-a7f3-74f4-a1f7-c53efa8fd9df",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "LBR iisy",
+      "model": "LBR iisy 15 R930",
+      "device_type": "Robotics",
+      "description": "An industrial cobot designed for flexible manufacturing and safe human-robot collaboration, with a 15 kg load and 930 mm maximum reach.",
+      "device_function": "Performs industrial automation tasks, including collaborative and force-controlled applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "product_family": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "model": {
+          "quote": "LBR iisy 15 R930",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_type": {
+          "quote": "LBR iisy industrial cobot",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "description": {
+          "quote": "The LBR iisy is an industrial cobot for flexible manufacturing and safe human-robot collaboration.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        },
+        "device_function": {
+          "quote": "Force-controlled applications for assembly, joining, and HRC tasks",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy-cobot",
+      "source_sha256": "4d4e369db35a666f3231a905601304ab958a10993ab28f2deb7366353fe0ac88",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR iisy"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR iisy 15 R930"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR iisy 15 R930"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR iisy 15 R930"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c39-0772-73c7-8d18-19ac587a7511",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KR C5 micro",
+      "device_type": "Robotics",
+      "description": "Ultra-thin controller for small robotics that supports current fieldbus standards and is described as powerful, AI-capable, and standard-compliant.",
+      "device_function": "Operate robots and production systems.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robot Guide",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers"
+        },
+        "model": {
+          "quote": "KR C5 micro for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers"
+        },
+        "device_type": {
+          "quote": "Robot controllers",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers"
+        },
+        "description": {
+          "quote": "Ultra-thin controller for small robotics supports all current fieldbus standards, powerful, AI-capable and standard-compliant.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers"
+        },
+        "device_function": {
+          "quote": "With powerful control technology from KUKA, you can operate your robots and production systems simply and efficiently.",
+          "url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-us/products/robotics-systems/robot-controllers",
+      "source_sha256": "40c9c694299f0caad7a279099c556295800eeddd2d8aa9d0ff48b411c904b071",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3a-bab0-7ebc-9072-f683da8b874a",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA cell4_FSW",
+      "model": "KUKA cell4_FSW midsize single",
+      "device_type": "Robotics",
+      "description": "A modular friction stir welding cell for automated production, configured with one robot and one FSW application module.",
+      "device_function": "Performs friction stir welding for production tasks, including applications in e-mobility.",
+      "protocols_json": [
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA standard cells KUKA cell4_FSW",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "product_family": {
+          "quote": "KUKA standard cells KUKA cell4_FSW",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "model": {
+          "quote": "KUKA cell4_FSW midsize single",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "device_type": {
+          "quote": "Friction stir welding cell",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "description": {
+          "quote": "The modular cell concept is based on the KUKA FSW application module with one or two robots (single-sided and double-sided welding)",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "device_function": {
+          "quote": "The FSW robot cell offers a highly automated solution for friction stir welding in electric vehicle production.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "protocols_json": {
+          "quote": "Interfaces based on OPC UA for easy data exchange",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell",
+      "source_sha256": "de1bd846bd320f3b2e9ecaf5ed1efd96d0dc0efe273544f0311ead200c8d2ec6",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA cell4_FSW"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW midsize single"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW midsize single"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW midsize single"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3a-bad9-759e-ab3a-31bf15316109",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA cell4_FSW",
+      "model": "KUKA cell4_FSW large dual",
+      "device_type": "Robotics",
+      "description": "A modular friction stir welding cell for automated production, configured with two robots and two FSW application modules.",
+      "device_function": "Performs friction stir welding for production tasks, including applications in e-mobility.",
+      "protocols_json": [
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA standard cells KUKA cell4_FSW",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "product_family": {
+          "quote": "KUKA standard cells KUKA cell4_FSW",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "model": {
+          "quote": "KUKA cell4_FSW large dual",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "device_type": {
+          "quote": "Friction stir welding cell",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "description": {
+          "quote": "The modular cell concept is based on the KUKA FSW application module with one or two robots (single-sided and double-sided welding)",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "device_function": {
+          "quote": "The FSW robot cell offers a highly automated solution for friction stir welding in electric vehicle production.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        },
+        "protocols_json": {
+          "quote": "Interfaces based on OPC UA for easy data exchange",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/kuka-cell4_fsw-friction-stir-welding-cell",
+      "source_sha256": "de1bd846bd320f3b2e9ecaf5ed1efd96d0dc0efe273544f0311ead200c8d2ec6",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA cell4_FSW"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW large dual"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW large dual"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA cell4_FSW large dual"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3b-23e1-73b4-8e05-e3c39dc94962",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA Genius",
+      "device_type": "Robotics",
+      "description": "Modular, compact friction welding machine family available in single-head or double-head, horizontal or vertical configurations. The machines support forge forces between 12 and 300 kN and include sensors and an OPC UA data interface for integration into a production network.",
+      "device_function": "Join materials by rotary friction welding, with machine configurations for different components and welding processes.",
+      "protocols_json": [
+        "IO-Link",
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Genius (12 – 300 kN)",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "product_family": {
+          "quote": "The KUKA Genius family offers three different variants of modular and compact friction welding machines based on the same machine platform.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_type": {
+          "quote": "Rotary Friction Welding Machines",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "description": {
+          "quote": "Thanks to intelligent sensors based on IO-Link and the OPC UA data interface, the Genius machines can be easily integrated into a production network",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_function": {
+          "quote": "The KUKA Genius family offers three different variants of modular and compact friction welding machines based on the same machine platform. With a forge force between 12 and 300 kN, every Genius is perfectly suited for flexibly implementing friction welding processes for a broad range of products.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "protocols_json": {
+          "quote": "Thanks to intelligent sensors based on IO-Link and the OPC UA data interface",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius",
+      "source_sha256": "4f6dcdaa13c6611e383b2898b5e2408aa444e0897d49b2b2ad26a47f368b4997",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA Genius"
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3b-23fd-770b-9c62-6dd42ef00af4",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA Genius",
+      "model": "KUKA Genius V",
+      "device_type": "Robotics",
+      "description": "Vertically configured single-head friction welding machine based on the KUKA Genius modular system. Its vertical architecture provides a compact footprint and is designed for component requirements where space is limited.",
+      "device_function": "Perform rotary friction welding in a vertical, single-head configuration.",
+      "protocols_json": [
+        "IO-Link",
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Genius V",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "product_family": {
+          "quote": "The KUKA Genius V is the vertically designed version of the KUKA Genius based on the modular system of the product family.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "model": {
+          "quote": "KUKA Genius V",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_type": {
+          "quote": "Rotary Friction Welding Machines",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "description": {
+          "quote": "The vertical system architecture enables a substantially smaller footprint of just 5.9 m² incl. control cabinet.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_function": {
+          "quote": "The vertically configured single-head friction welder is ideal for customers with special component requirements and little space.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "protocols_json": {
+          "quote": "Thanks to intelligent sensors based on IO-Link and the OPC UA data interface, the Genius machines can be easily integrated into a production network",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius",
+      "source_sha256": "4f6dcdaa13c6611e383b2898b5e2408aa444e0897d49b2b2ad26a47f368b4997",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA Genius"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA Genius V"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA Genius V"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA Genius V"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3b-2416-711c-b58e-ed61ce279eae",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA Genius",
+      "model": "KUKA Genius D",
+      "device_type": "Robotics",
+      "description": "Double-head friction welding machine for applications requiring double welds. Its power variant can weld and remove flash at both ends simultaneously in a single work cycle.",
+      "device_function": "Perform double-head rotary friction welding, including simultaneous double welding in one work cycle.",
+      "protocols_json": [
+        "IO-Link",
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Genius D",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "product_family": {
+          "quote": "The KUKA Genius D double-head friction welder is the ideal solution for challenging applications with double welds.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "model": {
+          "quote": "KUKA Genius D",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_type": {
+          "quote": "Rotary Friction Welding Machines",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "description": {
+          "quote": "The higher machine power capacity of the “power” variant enables maximum efficiency through simultaneous welding and removal of the flash at both ends in a single work cycle (one-pass productivity).",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "device_function": {
+          "quote": "The KUKA Genius D double-head friction welder is the ideal solution for challenging applications with double welds.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        },
+        "protocols_json": {
+          "quote": "Thanks to intelligent sensors based on IO-Link and the OPC UA data interface, the Genius machines can be easily integrated into a production network",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/genius",
+      "source_sha256": "4f6dcdaa13c6611e383b2898b5e2408aa444e0897d49b2b2ad26a47f368b4997",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA Genius"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA Genius D"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA Genius D"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA Genius D"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c3b-caae-7f21-a908-adfb1e5f9c9e",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KUKA Invictus",
+      "model": "KUKA Invictus 150",
+      "device_type": "Robotics",
+      "description": "A modular friction welding machine designed for a forge force of 77 to 1500 kN. Its documented features include VIPER Drive for simulating inertia processes, weld data export, component tracking, and an OPC UA interface for data exchange and analysis.",
+      "device_function": "Joins components using rotary friction welding, with documented functions for preparing components, controlling and monitoring the welding process, and recording weld data.",
+      "protocols_json": [
+        "OPC UA"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Invictus 150: versatility redefined",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "product_family": {
+          "quote": "The KUKA Invictus product family provides impressive performance with friction welding machines in the medium forge-force range up to 1500 kN.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "model": {
+          "quote": "KUKA Invictus 150: versatility redefined",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "device_type": {
+          "quote": "The KUKA Invictus 150 friction welding machine replaces up to six friction welders",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "description": {
+          "quote": "The cost-effective, modular KUKA Invictus 150 replaces up to six friction welder models and raises common applications to a higher level of performance. It is designed for a forge force of 77 to 1500 kN, which covers a wide range of components and even replaces special machines such as the RS 120 HS or RS 300 HS. The “Viper Drive” feature even enables it to simulate inertia processes as a direct-drive machine.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "device_function": {
+          "quote": "Friction welding is a pressure welding process. This technology can be used to join materials of the same type or of different types.",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        },
+        "protocols_json": {
+          "quote": "OPC UA interface for Industry 4.0, enabling data exchange for data analysis, process optimization and cost reduction",
+          "url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-ch/products/production-machines/rotary-friction-welding-machines/kuka-invictus",
+      "source_sha256": "3d171c68b7d5dbe90b34caf3e12e9d26c04d6d33352e7e655cb13e119366018a",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KUKA Invictus"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA Invictus 150"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA Invictus 150"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA Invictus 150"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c50-dce1-79ee-9e2f-092a94040408",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA Robotics",
+      "product_family": "KR C5 micro",
+      "model": "KR C5 micro",
+      "device_type": "Robotics",
+      "description": "A compact robot controller for production automation, designed for integration into existing automation environments. It supports current fieldbus standards, includes Ethernet and digital I/O interfaces, and offers an NVIDIA expansion option for AI applications.",
+      "device_function": "Controls robot systems and supports their integration into automation cells and production lines.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics South Korea Sales",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        },
+        "product_family": {
+          "quote": "로봇 컨트롤러\n\niiQKA.OS2용 KR C5 micro",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        },
+        "model": {
+          "quote": "iiQKA.OS2용 KR C5 micro",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        },
+        "device_type": {
+          "quote": "로봇 컨트롤러",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        },
+        "description": {
+          "quote": "초박형 소형 로봇 컨트롤러는 셀 및 회선 통합을 위한 모든 현재 필드버스 표준을 지원하고 필요한 하드웨어 리소스와 유연한 IO 포트를 갖추고 있습니다. 즉 비전 애플리케이션과 같은 계산 집약적인 AI 기반 기술도 처리할 수 있다는 의미입니다.",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        },
+        "device_function": {
+          "quote": "로봇 컨트롤러는 최소 공간에서 최대 성능, 연결성 및 유연성을 제공합니다. 기존 자동화 환경에 완벽하게 통합되고 새로운 작업과 보안 표준에 빠르게 적응합니다.",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87"
+        }
+      },
+      "source_url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%eb%a1%9c%eb%b4%87-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac/kr-c5-micro_%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac_%ec%86%8c%ed%98%95%eb%a1%9c%eb%b4%87",
+      "source_sha256": "c55d88568857a15e5f215818a512626e202587a0e6af9d87106d0ca9974b6f48",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KR C5 micro"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5 micro"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c57-5a15-7c3f-bd29-b69de75e14ad",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA Robotics",
+      "product_family": "LBR Med",
+      "model": "LBR Med 7 R800",
+      "device_type": "Robotics",
+      "description": "A seven-axis collaborative robot for integration into medical products and healthcare applications. The 7 R800 variant has a rated payload of 7 kg, an 800 mm maximum reach, and ±0.1 mm pose repeatability.",
+      "device_function": "Provides precise robotic assistance for medical applications, including surgery, diagnostics, radiotherapy, and rehabilitation.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "product_family": {
+          "quote": "LBR Med: Lightweight cobot for medical applications",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "model": {
+          "quote": "LBR Med 7 R800",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "device_type": {
+          "quote": "The LBR Med collaborative robot is the world's first cobot certified for integration into medical products.",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "description": {
+          "quote": "Rated payload\t7 kg\t14 kg\nMax. reach\t800 mm\n\t820 mm\n\nNumber of axes\t7 axes\t7 axes\nMounting flange A7\tDIN ISO 9409-1-A50\tDIN ISO 9409-1-A50\nWrist variant\tIn-line wrist\tIn-line wrist\nInstallation position\tAny\tAny\nPose repeatability (ISO 9283)\t±0.1 mm\t±0.15 mm",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "device_function": {
+          "quote": "In the fields of diagnostics, radiotherapy, rehabilitation and hair transplants, the LBR Med collaborative robot demonstrates its strengths and contributes significantly to the optimization of healthcare processes in hospitals.",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        }
+      },
+      "source_url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot",
+      "source_sha256": "e8f0837b264872d3333e67f7f609cfe4bfca60456e3992bf365f93f00b70a67e",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR Med"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR Med 7 R800"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR Med 7 R800"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR Med 7 R800"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c57-5a5a-7a8e-a5c6-4dd621841f7d",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA Robotics",
+      "product_family": "LBR Med",
+      "model": "LBR Med 14 R820",
+      "device_type": "Robotics",
+      "description": "A seven-axis collaborative robot for integration into medical products and healthcare applications. The 14 R820 variant has a rated payload of 14 kg, an 820 mm maximum reach, and ±0.15 mm pose repeatability.",
+      "device_function": "Provides precise robotic assistance for medical applications, including surgery, diagnostics, radiotherapy, and rehabilitation.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Corporation",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "product_family": {
+          "quote": "LBR Med: Lightweight cobot for medical applications",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "model": {
+          "quote": "LBR Med 14 R820",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "device_type": {
+          "quote": "The LBR Med collaborative robot is the world's first cobot certified for integration into medical products.",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "description": {
+          "quote": "Rated payload\t7 kg\t14 kg\nMax. reach\t800 mm\n\t820 mm\n\nNumber of axes\t7 axes\t7 axes\nMounting flange A7\tDIN ISO 9409-1-A50\tDIN ISO 9409-1-A50\nWrist variant\tIn-line wrist\tIn-line wrist\nInstallation position\tAny\tAny\nPose repeatability (ISO 9283)\t±0.1 mm\t±0.15 mm",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        },
+        "device_function": {
+          "quote": "In the fields of diagnostics, radiotherapy, rehabilitation and hair transplants, the LBR Med collaborative robot demonstrates its strengths and contributes significantly to the optimization of healthcare processes in hospitals.",
+          "url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot"
+        }
+      },
+      "source_url": "https://www.kuka.com/tr-tr/end%c3%bcstriler/robots-used-in-medicine/kuka-solutions-for-medical-robots/lbr-med-medical-robot",
+      "source_sha256": "e8f0837b264872d3333e67f7f609cfe4bfca60456e3992bf365f93f00b70a67e",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "LBR Med"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LBR Med 14 R820"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LBR Med 14 R820"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LBR Med 14 R820"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c5d-133e-742a-84ef-9a42ed5dab3a",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KR 4 AGILUS",
+      "model": "KR 4 R600",
+      "device_type": "Robotics",
+      "description": "Compact six-axis robot with a rated total payload of 4 kg and a maximum reach of 601 mm. Designed for applications including electronic component production, measurement, gluing, and handling.",
+      "device_function": "Performs automation tasks such as electronic component production and handling.",
+      "protocols_json": [
+        "Ethernet"
+      ],
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Türkiye Satış",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "product_family": {
+          "quote": "KR 4 AGILUS (6 eksenler) - teknik veriler",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "model": {
+          "quote": "KR 4 R600",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "device_type": {
+          "quote": "Endüstriyel Robotlar",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "description": {
+          "quote": "Kompakt robot, 4 kiloluk taşıma yükü ve 600 mm'lik erişim mesafesiyle elektronik sektöründe veya küçük otomasyon hücrelerinde yükleme-boşaltma ve montaj işlemleri gibi çeşitli görevleri üstlenmektedir.",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "device_function": {
+          "quote": "KR 4 AGILUS, elektronik parçaların üretimi ve ölçme, yapıştırma veya taşıma gibi uygulamalar için idealdir.",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        },
+        "protocols_json": {
+          "quote": "1 x M12 8 Pin Ethernet (opsiyonel)",
+          "url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus"
+        }
+      },
+      "source_url": "https://www.kuka.com/tr-tr/%c3%bcr%c3%bcnler/robot-sistemleri/end%c3%bcstriyel-robot/kr-4-agilus",
+      "source_sha256": "57a798081ecfb39020ac864ec3ae3da33735305b3cd2ec3adb3f9192b2ffa6b9",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KR 4 AGILUS"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR 4 R600"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR 4 R600"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR 4 R600"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c64-bf48-780e-be48-56106c0c6c5b",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KUKA Sunrise Cabinet",
+      "device_type": "Robotics",
+      "description": "A compact, expandable controller for the KUKA LBR iiwa cobot, combining safety, robot, logic, and process control with integrated sensor processing.",
+      "device_function": "Controls the KUKA LBR iiwa cobot and provides safety, robot, logic, and process control with integrated sensor processing.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Sunrise Cabinet",
+          "url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet"
+        },
+        "model": {
+          "quote": "KUKA Sunrise Cabinet",
+          "url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet"
+        },
+        "device_type": {
+          "quote": "KUKA Sunrise Cabinet ist die Steuerung für den KUKA LBR iiwa cobot.",
+          "url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet"
+        },
+        "description": {
+          "quote": "Die Steuerung KUKA Sunrise Cabinet bietet die leistungsfähige, zuverlässige KUKA Technik in kleiner Bauform. Ihr flexibler Aufbau und die daraus resultierende Erweiterbarkeit machen sie zum Multitalent.",
+          "url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet"
+        },
+        "device_function": {
+          "quote": "Safety-, Robot-, Logic- und Process-Control mit integrierter Sensorverarbeitung: Für die gesamte Anlage ist alles in nur einer Steuerung vereint.",
+          "url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet"
+        }
+      },
+      "source_url": "https://www.kuka.com/de-ch/produkte-leistungen/robotersysteme/robotersteuerungen/kuka-sunrise-cabinet",
+      "source_sha256": "f7ae6fa4792a8991014f345be828940d7a40183527b442b1ab2b5520229bee51",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KUKA Sunrise Cabinet"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KUKA Sunrise Cabinet"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KUKA Sunrise Cabinet"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18c8a-670a-7161-acf8-be31e53aedd8",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA Robotics",
+      "model": "KR C4",
+      "device_type": "Robotics",
+      "device_function": "Robot control",
+      "description": "A KUKA robot controller identified as a hardware component required for KUKA.LaserTech systems.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Robotics Korea Co. Ltd.",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech"
+        },
+        "model": {
+          "quote": "KUKA 로봇 컨트롤러 KR C4",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech"
+        },
+        "device_type": {
+          "quote": "하드웨어\nKUKA 로봇 컨트롤러 KR C4",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech"
+        },
+        "device_function": {
+          "quote": "KUKA 로봇 컨트롤러 KR C4",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech"
+        },
+        "description": {
+          "quote": "하드웨어\nKUKA 로봇 컨트롤러 KR C4",
+          "url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech"
+        }
+      },
+      "source_url": "https://www.kuka.com/ko-kr/%ec%a0%9c%ed%92%88/%eb%a1%9c%eb%b4%87-%ec%8b%9c%ec%8a%a4%ed%85%9c/%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/%ec%96%b4%ed%94%8c%eb%a6%ac%ec%bc%80%ec%9d%b4%ec%85%98-%ec%86%8c%ed%94%84%ed%8a%b8%ec%9b%a8%ec%96%b4/kuka_lasertech",
+      "source_sha256": "1b0cc6dec5706d5ef338c92b84964af194f7a7b02963c9f61aa865d74fa60e10",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C4"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C4"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C4"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18cb2-ef7b-7dee-bf44-a7e0cd6a4dc5",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KMP 250P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact top-load mobile robot platform for automating logistics processes; a cleanroom variant is also available. Payload capacity: 250 kg.",
+      "device_function": "Transport materials and goods autonomously within production and logistics environments.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA AMR's beschikken behalve over de klassieke QR-codenavigatie ook over een SLAM-technologie",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 250P diffDrive",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "Autonome mobiele robotica (AMR)",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "description": {
+          "quote": "Compact topload-platform voor de automatisering van logistieke processen – ook beschikbaar in een variant voor cleanrooms.\n\nDraaglast: 250 kg",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "Onze mobiele robotplatformen (AMR's) zijn ontwikkeld voor een scala aan taken en productvereisten in de industrie – zelfs zware en onhandzame goederen kunnen hiermee moeiteloos en betrouwbaar worden vervoerd.",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot",
+      "source_sha256": "087698161069a31ccfc04bf058e0241f4a1daa980c2c778b67455bf5e8b67e25",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 250P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18cb2-efb3-742c-914a-6f1d3b1f1430",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KMP 600P diffDrive",
+      "device_type": "Robotics",
+      "description": "Compact top-load mobile robot platform designed for production areas with limited space; described as suitable for transporting mesh containers. Payload capacity: 600 kg.",
+      "device_function": "Transport materials and goods autonomously within production and logistics environments.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA AMR's beschikken behalve over de klassieke QR-codenavigatie ook over een SLAM-technologie",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 600P diffDrive",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "Autonome mobiele robotica (AMR)",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "description": {
+          "quote": "De compacte allrounder voor krappe ruimtes in de productie – krachtig en rendabel. Perfect voor het transport van gaascontainers.\n\nDraaglast: 600 kg",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "Onze mobiele robotplatformen (AMR's) zijn ontwikkeld voor een scala aan taken en productvereisten in de industrie – zelfs zware en onhandzame goederen kunnen hiermee moeiteloos en betrouwbaar worden vervoerd.",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot",
+      "source_sha256": "087698161069a31ccfc04bf058e0241f4a1daa980c2c778b67455bf5e8b67e25",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 600P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18cb2-efce-7032-b98a-7740e5d45bd4",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KMP 1500P diffDrive",
+      "device_type": "Robotics",
+      "description": "Mobile robot platform for transporting heavy loads on various load carriers, including in narrow aisles; described as suitable for pallet transport. Payload capacity: 1500 kg.",
+      "device_function": "Transport materials and goods autonomously within production and logistics environments.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA AMR's beschikken behalve over de klassieke QR-codenavigatie ook over een SLAM-technologie",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 1500P diffDrive",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "Autonome mobiele robotica (AMR)",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "description": {
+          "quote": "Mobiel robotplatform transporteert zware lasten op diverse ladingdragers - ook in smalle gangen. Ideaal voor het transport van pallets.\n\nDraaglast: 1500 kg",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "Onze mobiele robotplatformen (AMR's) zijn ontwikkeld voor een scala aan taken en productvereisten in de industrie – zelfs zware en onhandzame goederen kunnen hiermee moeiteloos en betrouwbaar worden vervoerd.",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot",
+      "source_sha256": "087698161069a31ccfc04bf058e0241f4a1daa980c2c778b67455bf5e8b67e25",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 1500P diffDrive"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18cb2-efe7-7e3e-be1c-fc15e4e6c755",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "model": "KMP 3000P omni",
+      "device_type": "Robotics",
+      "description": "Omnidirectional transport platform for moving large and heavy products in production and logistics; described as suitable for battery modules. Payload capacity: 3000 kg.",
+      "device_function": "Transport materials and goods autonomously within production and logistics environments.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA AMR's beschikken behalve over de klassieke QR-codenavigatie ook over een SLAM-technologie",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "model": {
+          "quote": "KMP 3000P omni",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_type": {
+          "quote": "Autonome mobiele robotica (AMR)",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "description": {
+          "quote": "Omnidirectioneel transportplatform verplaatst grote en zware producten in de productie en logistiek – ideaal voor accumodules.\n\nDraaglast: 3000 kg",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        },
+        "device_function": {
+          "quote": "Onze mobiele robotplatformen (AMR's) zijn ontwikkeld voor een scala aan taken en productvereisten in de industrie – zelfs zware en onhandzame goederen kunnen hiermee moeiteloos en betrouwbaar worden vervoerd.",
+          "url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot"
+        }
+      },
+      "source_url": "https://www.kuka.com/nl-be/producten/amr-autonome-mobiele-robotica/topload-transportrobot",
+      "source_sha256": "087698161069a31ccfc04bf058e0241f4a1daa980c2c778b67455bf5e8b67e25",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KMP 3000P omni"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18ccd-8984-7424-b5ca-d5913eb30f40",
+    "manufacturer_id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "manufacturer": "KUKA",
+      "product_family": "KR C5 for iiQKA.OS2",
+      "model": "KR C5 for iiQKA.OS2",
+      "device_type": "Robotics",
+      "description": "Industrial robot controller based on the iiQKA.OS2 operating system, designed for versatile automation environments. It features a space-saving design, Ethernet and digital IO interfaces, and a scalable modular cabinet system.",
+      "device_function": "Control industrial robots across automation applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "KUKA Industries Singapore Pte. Ltd.",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "product_family": {
+          "quote": "KR C5 for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "model": {
+          "quote": "KR C5 for iiQKA.OS2",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_type": {
+          "quote": "innovative robot controller",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "description": {
+          "quote": "Its innovative, space-saving design enables seamless integration into versatile automation environments",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        },
+        "device_function": {
+          "quote": "Versatile, powerful and future-orientated industrial robot controller",
+          "url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller"
+        }
+      },
+      "source_url": "https://www.kuka.com/en-sg/products/robotics-systems/robot-controllers/kr-c5_robot_controller",
+      "source_sha256": "c5e03934ad0cdd7d4917d2d9e8e617c466176232fd56e78f93d7dcd28c7a7b64",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "KR C5 for iiQKA.OS2"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "KR C5 for iiQKA.OS2"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  }
+]

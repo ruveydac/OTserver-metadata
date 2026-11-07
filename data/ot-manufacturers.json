@@ -1,0 +1,728 @@
+[
+  {
+    "id": "01a17c04-0336-7491-9d90-dfe4903aa9d3",
+    "data": {
+      "name": "Siemens AG",
+      "aliases": ["Siemens", "Siemens Aktiengesellschaft", "Siemens Industry, Inc.", "Siemens Building Technologies", "Siemens Digital Industries", "Siemens AG Automation and Drives", "Siemens AG I IA"],
+      "rank": 1,
+      "parentCompany": "Siemens AG",
+      "hqCountry": "Germany",
+      "website": "https://www.siemens.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["OT", "CPPS", "Building Automation"],
+      "productTypes": ["PLC", "DCS", "drives", "HMI", "I/O", "sensors"],
+      "keyProductFamilies": ["SIMATIC S7-1500/S7-400H", "SIMATIC ET 200", "SINAMICS", "SIMATIC PCD", "Desigo CC (BMS)"],
+      "industrialProtocols": ["PROFINET", "PROFIBUS", "Modbus TCP/RTU", "OPC UA", "BACnet"],
+      "targetIndustries": ["Discrete+process", "automotive", "pharma", "food", "power"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Dominant ICS/OT portfolio; installed base across all major sectors",
+      "rankingScore": 96,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.siemens.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Siemens AG", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*siemens(?:[\\s,]+(?:a\\.?\\s*g\\.?|aktiengesellschaft|ltd\\.?|limited|inc\\.?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*siemens(?:\\s+ag)?[\\s,-]+(?:industry|building[\\s-]+technologies|digital[\\s-]+industries|industrial[\\s-]+automation|automation\\s+(?:and|&)\\s+drives|i\\s+ia)(?:[\\s,]+(?:inc\\.?|incorporated|ag|ltd\\.?|limited))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0340-7e60-8bb0-dd760dac9c61",
+    "data": {
+      "name": "Rockwell Automation (Allen-Bradley)",
+      "aliases": ["Rockwell", "Rockwell Automation", "Rockwell Automation, Inc.", "Allen-Bradley", "Allen Bradley", "AllenBradley", "Allen-Bradley Company LLC", "A-B", "AB", "Rockwell Automation / Allen-Bradley"],
+      "rank": 2,
+      "parentCompany": "Rockwell Automation",
+      "hqCountry": "USA",
+      "website": "https://www.rockwellautomation.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["OT", "CPPS"],
+      "productTypes": ["PLC", "PAC", "drives", "HMI", "I/O"],
+      "keyProductFamilies": ["ControlLogix 5370/5580", "Micro870", "PowerFlex", "FactoryTalk", "PanelView Plus"],
+      "industrialProtocols": ["EtherNet/IP", "PROFINET", "Modbus TCP/RTU", "DeviceNet", "OPC UA"],
+      "targetIndustries": ["Discrete+process", "automotive", "packaging", "chemicals"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Leading PLC/PAC vendor (Allen-Bradley lineage)",
+      "rankingScore": 94,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.rockwellautomation.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Rockwell Automation (Allen-Bradley)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*rockwell(?:[\\s._-]*automation)?(?:[\\s,]+(?:inc\\.?|incorporated|ltd\\.?|limited))?(?:\\s*\\(allen[\\s._‐‑–-]*bradley\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*allen[\\s._‐‑–-]*bradley(?:[\\s,]+(?:co\\.?|company))?(?:[\\s,]+(?:llc|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*a[\\s.‐‑–-]*b\\.?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:rockwell[\\s._-]*automation\\s*[/|-]\\s*allen[\\s._‐‑–-]*bradley|allen[\\s._‐‑–-]*bradley\\s*[/(-]\\s*rockwell[\\s._-]*automation\\)?)\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0341-73f4-866b-bb434e2c18db",
+    "data": {
+      "name": "ABB",
+      "aliases": ["ABB Ltd", "ABB Limited", "ABB Inc.", "ABB AB", "ABB AG", "ABB Automation", "ABB Automation Products GmbH", "ABB Robotics", "Asea Brown Boveri"],
+      "rank": 3,
+      "parentCompany": "ABB Ltd",
+      "hqCountry": "Sweden",
+      "website": "https://new.abb.com",
+      "primaryCategory": "Industrial Automation/Robotics",
+      "secondaryCategories": ["ICS", "CPPS"],
+      "productTypes": ["Drives", "robotics", "PLC", "sensors", "power"],
+      "keyProductFamilies": ["ACS/ACQ drives", "IRB 6700/5700 robots", "FLEXIM", "PROCESSIM (DCS)"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "OPC UA", "EtherNet/IP"],
+      "targetIndustries": ["Process+discrete", "chemicals", "pulp/paper", "metals"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Major drive+robot+power vendor; large installed base",
+      "rankingScore": 93,
+      "confidence": "High",
+      "evidenceUrls": ["https://new.abb.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "ABB", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*a\\.?b\\.?b\\.?(?:[\\s,]+(?:ltd\\.?|limited|inc\\.?|ab|ag|gmbh|oy|s\\.?a\\.?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*abb[\\s-]+(?:automation(?:\\s+(?:products|technologies))?|robotics|industrial\\s+automation|process\\s+automation)(?:[\\s,]+(?:ltd\\.?|limited|inc\\.?|ab|ag|gmbh|oy))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*asea[\\s-]+brown[\\s-]+boveri(?:[\\s,]+(?:ltd\\.?|limited|ag|ab))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0341-78d8-813a-bc494cef9c23",
+    "data": {
+      "name": "Schneider Electric",
+      "aliases": ["Schneider", "Schneider Electric SE", "Schneider Electric Industries SAS", "SchneiderElectric", "Modicon", "Square D", "Square D Company"],
+      "rank": 4,
+      "parentCompany": "Schneider Electric SE",
+      "hqCountry": "France",
+      "website": "https://www.se.com",
+      "primaryCategory": "ICS/OT/Building Automation",
+      "secondaryCategories": ["Industrial Automation", "CPPS"],
+      "productTypes": ["PLC", "drives", "HMI", "building controllers", "power"],
+      "keyProductFamilies": ["Modicon M340/M580", "Altivar", "Unity (BMS)", "EcoStruxure", "PowerLogic"],
+      "industrialProtocols": ["Modbus TCP/RTU", "BACnet", "EtherNet/IP", "OPC UA"],
+      "targetIndustries": ["Discrete+process", "commercial buildings", "utilities"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "EcoStruxure platform; broad OT/BAS portfolio",
+      "rankingScore": 91,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.se.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Schneider Electric", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*schneider(?:[\\s._-]*electric)?(?:\\s+(?:industries|automation))?(?:[\\s,]+(?:se|s\\.?a\\.?|s\\.?a\\.?s\\.?|gmbh|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:modicon|square[\\s._-]*d)(?:[\\s,]+(?:co\\.?|company|inc\\.?|ltd\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "name": "Emerson Electric (Process Control)",
+      "aliases": ["Emerson", "Emerson Electric", "Emerson Electric Co.", "Emerson Process Management", "Emerson Automation Solutions", "Emerson Process Control"],
+      "rank": 5,
+      "parentCompany": "Emerson Electric",
+      "hqCountry": "USA",
+      "website": "https://www.emerson.com",
+      "primaryCategory": "ICS/OT",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["DCS", "PLC", "RTU", "control valves", "analyzers"],
+      "keyProductFamilies": ["DeltaV", "RSLogix/Coupler", "Provox", "ABB-adjacent legacy", "RuggedCom RTUs"],
+      "industrialProtocols": ["Modbus TCP/RTU", "DNP3", "HART", "OPC UA", "IEC 60870-5-104"],
+      "targetIndustries": ["Oil&gas", "power", "water", "chemicals"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "DeltaV DCS; strong OT/instrumentation presence",
+      "rankingScore": 90,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.emerson.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Emerson Electric (Process Control)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*emerson(?:[\\s._-]*electric)?(?:[\\s,]+(?:co\\.?|company|inc\\.?|ltd\\.?|limited))?(?:\\s*\\(process\\s+control\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*emerson[\\s-]+(?:process[\\s-]+(?:management|control)|automation[\\s-]+solutions)(?:[\\s,]+(?:co\\.?|inc\\.?|gmbh|ltd\\.?|limited))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0342-75a4-8ab5-8d884273b29a",
+    "data": {
+      "name": "Honeywell (Process Solutions)",
+      "aliases": ["Honeywell", "Honeywell International Inc.", "Honeywell Process Solutions", "Honeywell Building Solutions", "Honeywell Building Technologies", "Honeywell Fire/Security", "Honeywell HPS"],
+      "rank": 6,
+      "parentCompany": "Honeywell International",
+      "hqCountry": "USA",
+      "website": "https://www.honeywell.com",
+      "primaryCategory": "ICS/OT",
+      "secondaryCategories": ["CPPS", "Building Automation"],
+      "productTypes": ["DCS", "PLC", "RTU", "fire/security", "building controls"],
+      "keyProductFamilies": ["Experion PKS (DCS)", "Intellio (RTU)", "C300/C700", "Fire/Lite", "BMS"],
+      "industrialProtocols": ["Modbus TCP/RTU", "DNP3", "IEC 60870-5-104", "HART", "OPC UA"],
+      "targetIndustries": ["Power", "oil&gas", "water", "commercial buildings"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Experion PKS DCS; building/fire/security hardware",
+      "rankingScore": 89,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.honeywell.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Honeywell (Process Solutions)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*honeywell(?:\\s+international)?(?:[\\s,]+(?:inc\\.?|incorporated|ltd\\.?|limited|gmbh))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*honeywell[\\s(-]+(?:process[\\s-]+solutions|building[\\s-]+(?:solutions|technologies)|fire[\\s/&-]+security|hps)\\)?(?:[\\s,]+(?:inc\\.?|ltd\\.?|limited|gmbh))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0342-71cd-a42d-edbdc92e6bb8",
+    "data": {
+      "name": "Bosch Rexroth",
+      "aliases": ["Bosch Rexroth AG", "Bosch Rexroth Corporation", "BoschRexroth", "Rexroth", "Rexroth Bosch Group", "Indramat", "Rexroth Indramat", "Bosch Rexroth Indramat"],
+      "rank": 7,
+      "parentCompany": "Bosch Rexroth AG",
+      "hqCountry": "Germany",
+      "website": "https://www.boschrexroth.com",
+      "primaryCategory": "Industrial Automation/Robotics",
+      "secondaryCategories": ["ICS", "CPPS"],
+      "productTypes": ["Servo", "drives", "CNC", "linear motion", "control cabinets"],
+      "keyProductFamilies": ["INDRADrive", "INDUTRON", "CNC 301/302", "LFA (linear)", "KAS (control)"],
+      "industrialProtocols": ["PROFINET", "PROFIBUS", "Modbus TCP/RTU"],
+      "targetIndustries": ["Machine OEM", "automotive", "packaging", "metals"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Drives/CNC/motion for machine builders",
+      "rankingScore": 88,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.boschrexroth.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Bosch Rexroth", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:bosch[\\s._-]*)?rexroth(?:[\\s,]+(?:ag|gmbh|corp\\.?|corporation|ltd\\.?|limited|bosch\\s+group))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:(?:bosch[\\s-]+)?rexroth[\\s-]+)?indramat(?:[\\s,]+(?:gmbh|ag|ltd\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0343-7b58-9fc9-6db329c726f7",
+    "data": {
+      "name": "FANUC",
+      "aliases": ["FANUC Corporation", "FANUC Corp.", "FANUC Ltd.", "FANUC America Corporation", "FANUC Robotics", "FANUC Robotics America, Inc.", "FANUC Europe Corporation"],
+      "rank": 8,
+      "parentCompany": "Yaskawa Electric (parent)",
+      "hqCountry": "Japan",
+      "website": "https://www.fanuc.co.jp",
+      "primaryCategory": "Industrial Robotics/ICS",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "CNC", "robots", "motors"],
+      "keyProductFamilies": ["R-30iBpC/R-30iA controllers", "MATEIN", "10/20/30 series robots", "FANUC CNC"],
+      "industrialProtocols": ["FANUC proprietary (EtherCAT-based)", "PROFINET", "Modbus TCP/RTU"],
+      "targetIndustries": ["Automotive", "electronics", "metalworking", "general"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Leading industrial robot+controller+CNC vendor",
+      "rankingScore": 87,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.fanuc.co.jp"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "FANUC", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*fanuc(?:[\\s,]+(?:corp\\.?|corporation|ltd\\.?|limited|inc\\.?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*fanuc[\\s-]+(?:robotics(?:\\s+america)?|america|europe|uk)(?:[\\s,]+(?:corp\\.?|corporation|ltd\\.?|limited|inc\\.?|gmbh|s\\.?a\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0343-7c9c-9465-b9d27737af19",
+    "data": {
+      "name": "Yaskawa (Motoman)",
+      "aliases": ["Yaskawa", "Yaskawa Electric Corporation", "Yaskawa America, Inc.", "Yaskawa Europe GmbH", "Yaskawa Motoman", "Motoman", "Motoman Robotics", "Motoman Inc."],
+      "rank": 9,
+      "parentCompany": "Yaskawa Electric",
+      "hqCountry": "Japan",
+      "website": "https://www.yaskawa.com",
+      "primaryCategory": "Industrial Robotics/ICS",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "robots", "drives", "motion control"],
+      "keyProductFamilies": ["Motoman LCp/LCi", "GPX/MotiP controllers", "Sigma-7 drives", "ARCMotion"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP"],
+      "targetIndustries": ["Automotive", "general assembly", "electronics"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Motoman robots+controllers; drive portfolio",
+      "rankingScore": 86,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.yaskawa.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Yaskawa (Motoman)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*yaskawa(?:[\\s-]+(?:electric|america|europe))?(?:[\\s,]+(?:corp\\.?|corporation|inc\\.?|ltd\\.?|limited|gmbh))?(?:\\s*\\(motoman\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:yaskawa[\\s/-]+)?motoman(?:[\\s/-]+(?:robotics|yaskawa))?(?:[\\s,]+(?:inc\\.?|ltd\\.?|limited|gmbh))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0345-779a-8dad-6d1c5cb066b5",
+    "data": {
+      "name": "KUKA Robotics",
+      "aliases": ["KUKA", "KUKA AG", "KUKA Roboter GmbH", "KUKA Robotics Corporation", "KUKA Deutschland GmbH", "KUKA Systems GmbH"],
+      "rank": 10,
+      "parentCompany": "Midea Group (via KUKA)",
+      "hqCountry": "Germany",
+      "website": "https://www.kuka.com",
+      "primaryCategory": "Industrial Robotics",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "robot arms", "system software"],
+      "keyProductFamilies": ["KR/CR series robots", "robocup/c4 controllers", "KUKa.Sys.KRL"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP"],
+      "targetIndustries": ["Automotive", "general assembly", "food/beverage"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Leading 6-axis industrial robot OEM (acquired)",
+      "rankingScore": 85,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.kuka.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "KUKA Robotics", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*kuka(?:[\\s,]+(?:ag|gmbh|ltd\\.?|limited|inc\\.?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*kuka[\\s-]+(?:robotics|roboter|deutschland|systems)(?:[\\s,]+(?:ag|gmbh|corp\\.?|corporation|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0346-73be-8871-4357e1e34d7b",
+    "data": {
+      "name": "Beckhoff Automation",
+      "aliases": ["Beckhoff", "Beckhoff GmbH", "Beckhoff Automation GmbH & Co. KG", "Beckhoff Automation LLC", "Beckhoff Automation Ltd.", "Beckhoff Industrie Elektronik"],
+      "rank": 11,
+      "parentCompany": "Beckhoff GmbH",
+      "hqCountry": "Germany",
+      "website": "https://www.beckhoff.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["CPPS", "OT"],
+      "productTypes": ["PAC", "PLC", "drives", "I/O", "HMI (TwinCAT)"],
+      "keyProductFamilies": ["TwinCAT 3", "C6030/C620 PAC", "EL-series I/O", "KL/KL drives", "AX/CP I/O"],
+      "industrialProtocols": ["EtherCAT", "PROFINET", "PROFIBUS", "Modbus TCP/RTU", "OPC UA"],
+      "targetIndustries": ["Machine OEM", "packaging", "metals", "food"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "EtherCAT leader; motion+control for machine builders",
+      "rankingScore": 84,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.beckhoff.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Beckhoff Automation", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*beckhoff(?:[\\s._-]*automation)?(?:[\\s,]+(?:gmbh(?:\\s*(?:&|and|und)\\s*co\\.?\\s*k\\.?g\\.?)?|llc|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*beckhoff[\\s-]+industrie[\\s-]*elektronik(?:[\\s,]+gmbh)?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0346-7864-9416-3ae51951e438",
+    "data": {
+      "name": "Phoenix Contact",
+      "aliases": ["PhoenixContact", "Phoenix-Contact", "Phoenix Contact GmbH & Co. KG", "Phoenix Contact USA, Inc.", "Phoenix Contact Electronics GmbH", "Phoenix Contact Software GmbH"],
+      "rank": 12,
+      "parentCompany": "Phoenix Contact GmbH & Co. KG",
+      "hqCountry": "Germany",
+      "website": "https://www.phoenixcontact.com",
+      "primaryCategory": "OT/ICS",
+      "secondaryCategories": ["Industrial Automation", "CPPS"],
+      "productTypes": ["I/O", "HMI/SCADA (MCP)", "industrial PC", "drives", "OT comms"],
+      "keyProductFamilies": ["MCP (HMI/SCADA)", "Axiom/Multiplex I/O", "PLC-Classic", "IL/IC drives", "MRP (OT)"],
+      "industrialProtocols": ["PROFINET", "PROFIBUS", "Modbus TCP/RTU", "EtherNet/IP", "OPC UA", "MQTT"],
+      "targetIndustries": ["Process+discrete", "energy", "water", "machine OEM"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "I/O+HMI+industrial PC+OT comms breadth",
+      "rankingScore": 83,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.phoenixcontact.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Phoenix Contact", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*phoenix[\\s._-]*contact(?:\\s+usa)?(?:[\\s,]+(?:gmbh(?:\\s*(?:&|and|und)\\s*co\\.?\\s*k\\.?g\\.?)?|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*phoenix[\\s._-]*contact[\\s-]+(?:electronics|software)(?:[\\s,]+gmbh)?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0347-796a-8270-9fc5194f53cd",
+    "data": {
+      "name": "WAGO",
+      "aliases": ["WAGO GmbH & Co. KG", "WAGO Kontakttechnik", "WAGO Kontakttechnik GmbH & Co. KG", "WAGO Corporation", "WAGO Contact SA", "WAGO Contact AG"],
+      "rank": 13,
+      "parentCompany": "WAGO GmbH & Co. KG",
+      "hqCountry": "Germany",
+      "website": "https://www.wago.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["CPPS", "OT"],
+      "productTypes": ["PAC", "PLC", "HMI", "I/O", "drives (inverter)"],
+      "keyProductFamilies": ["PACTA PAC", "W@SYS (HMI/SCADA)", "PDU/I-O modules", "inverter drives"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP", "OPC UA"],
+      "targetIndustries": ["Machine OEM", "energy", "food", "packaging"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "PAC+control+OT portfolio; strong EU machine market",
+      "rankingScore": 82,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.wago.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "WAGO", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*wago(?:[\\s,]+(?:gmbh(?:\\s*(?:&|and|und)\\s*co\\.?\\s*k\\.?g\\.?)?|corp\\.?|corporation|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*wago[\\s-]+(?:kontakttechnik|contact)(?:[\\s,]+(?:gmbh(?:\\s*(?:&|and|und)\\s*co\\.?\\s*k\\.?g\\.?)?|ag|s\\.?a\\.?|ltd\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0347-7cd2-9324-93c286cec95d",
+    "data": {
+      "name": "Mitsubishi Electric (MEC)",
+      "aliases": ["Mitsubishi", "Mitsubishi Electric", "Mitsubishi Electric Corporation", "MitsubishiElectric", "Mitsubishi Electric Automation, Inc.", "Mitsubishi Electric Europe B.V.", "MELCO"],
+      "rank": 14,
+      "parentCompany": "Mitsubishi Electric",
+      "hqCountry": "Japan",
+      "website": "https://www.mitsubishielectric.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["CPPS", "Robotics"],
+      "productTypes": ["PLC", "servo", "drives", "robots", "CNC", "HMI"],
+      "keyProductFamilies": ["MELSEC iQ-R/iQ-F", "MELFA servo", "AC810/EC-2000 drives", "M740/M980 (via) robots", "CIMES"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP", "OPC UA"],
+      "targetIndustries": ["Discrete+process", "automotive", "electronics", "machine OEM"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "PLC/servo/drive breadth (MELSEC)",
+      "rankingScore": 81,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.mitsubishielectric.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Mitsubishi Electric (MEC)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*mitsubishi(?:[\\s._-]*electric)?(?:[\\s,]+(?:corp\\.?|corporation|inc\\.?|ltd\\.?|limited))?(?:\\s*\\(mec\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*mitsubishi[\\s._-]*electric[\\s-]+(?:automation|europe)(?:[\\s,]+(?:inc\\.?|corp\\.?|corporation|b\\.?v\\.?|gmbh|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*melco\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0347-7c14-a28d-d6626d089f10",
+    "data": {
+      "name": "Omron",
+      "aliases": ["OMRON Corporation", "Omron Corp.", "Omron Electronics LLC", "Omron Electronics Co., Ltd.", "Omron Industrial Automation", "Omron Automation and Safety", "Omron Europe B.V."],
+      "rank": 15,
+      "parentCompany": "OMRON Corporation",
+      "hqCountry": "Japan",
+      "website": "https://www.omron.com",
+      "primaryCategory": "ICS/Industrial Automation",
+      "secondaryCategories": ["OT", "CPPS"],
+      "productTypes": ["PLC", "servo", "drives", "sensors", "HMI", "safety"],
+      "keyProductFamilies": ["Sysmac (NJ/NX)", "CJ2M", "FANUC-adjacent legacy", "Sysnet", "E5/E4 sensors"],
+      "industrialProtocols": ["EtherNet/IP", "PROFINET", "Modbus TCP/RTU", "DeviceNet", "OPC UA"],
+      "targetIndustries": ["Discrete+process", "electronics", "packaging", "food"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Sysmac PAC+controls; sensor portfolio",
+      "rankingScore": 80,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.omron.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Omron", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*omron(?:[\\s,]+(?:corp\\.?|corporation|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*omron[\\s-]+(?:electronics|europe|industrial\\s+automation|automation(?:\\s+(?:and|&)\\s+safety)?)(?:[\\s,]+(?:co\\.?|company))?(?:[\\s,]+(?:llc|inc\\.?|ltd\\.?|limited|gmbh|b\\.?v\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0347-7216-9697-50c21cb5661e",
+    "data": {
+      "name": "Yokogawa (Electric)",
+      "aliases": ["Yokogawa", "Yokogawa Electric", "Yokogawa Electric Corporation", "Yokogawa Electric Corp.", "Yokogawa Corporation of America", "Yokogawa Europe B.V.", "Yokogawa Deutschland GmbH"],
+      "rank": 16,
+      "parentCompany": "Yokogawa Electric Corporation",
+      "hqCountry": "Japan",
+      "website": "https://en.yokogawa.com",
+      "primaryCategory": "ICS/OT",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["PLC", "DCS", "drives", "RTU", "analyzers"],
+      "keyProductFamilies": ["CP/MJ7/J7 (PLC)", "PROFIBAS", "YD-700/800 (DCS)", "ABB-adjacent legacy", "I/O", "RTUs"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "DNP3", "HART", "OPC UA", "IEC 61850"],
+      "targetIndustries": ["Power", "oil&gas", "water", "chemicals", "process"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Proportional+discrete controls; strong power OT",
+      "rankingScore": 79,
+      "confidence": "High",
+      "evidenceUrls": ["https://en.yokogawa.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Yokogawa (Electric)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*yokogawa(?:[\\s._-]*electric|\\s*\\(electric\\))?(?:[\\s,]+(?:corp\\.?|corporation|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*yokogawa\\s+(?:corporation\\s+of\\s+america|europe(?:[\\s,]+b\\.?v\\.?)?|deutschland(?:[\\s,]+gmbh)?)\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0347-7d72-b346-91bce2a07302",
+    "data": {
+      "name": "Delta Electronics (DIA)",
+      "aliases": ["Delta", "Delta Electronics", "Delta Electronics, Inc.", "Delta Electronics Co., Ltd.", "Delta Industrial Automation", "Delta Electronics (Americas) Ltd.", "Delta Electronics (Thailand) Public Company Limited"],
+      "rank": 17,
+      "parentCompany": "Delta Electronics, Inc.",
+      "hqCountry": "Taiwan",
+      "website": "https://www.delta-qc.com",
+      "primaryCategory": "Industrial Automation/Robotics",
+      "secondaryCategories": ["ICS", "CPPS"],
+      "productTypes": ["VFD", "servo", "PLC", "HMI", "drives", "robots"],
+      "keyProductFamilies": ["ACU/AS series VFDs", "AS-200 servo", "SS300/SS800 (PLC)", "DCP/HMI", "Delta robot arms"],
+      "industrialProtocols": ["Modbus TCP/RTU", "PROFINET", "EtherNet/IP", "OPC UA"],
+      "targetIndustries": ["Discrete+process", "electronics", "packaging", "metals"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "VFD/servo/PLC breadth (Delta)",
+      "rankingScore": 78,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.delta-qc.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*delta\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "equals", "value": "Delta Electronics (DIA)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*delta[\\s._-]*electronics(?:\\s*\\((?:dia|americas|thailand)\\))?(?:[\\s,]+(?:co\\.?|company))?(?:[\\s,]+(?:inc\\.?|incorporated|ltd\\.?|limited|public\\s+company\\s+limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*delta[\\s-]+industrial[\\s-]+automation\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-74d9-b005-c31fb331b4bc",
+    "data": {
+      "name": "SICK AG",
+      "aliases": ["SICK", "SICK Inc.", "SICK GmbH", "SICK Sensor Intelligence", "SICK Optic-Electronic", "SICK Optic Electronic GmbH"],
+      "rank": 19,
+      "parentCompany": "SICK AG (Schaeffler)",
+      "hqCountry": "Germany",
+      "website": "https://www.sick.com",
+      "primaryCategory": "Industrial Automation/Robotics",
+      "secondaryCategories": ["OT", "CPPS"],
+      "productTypes": ["Sensors", "machine vision", "safety", "identification"],
+      "keyProductFamilies": ["OPTIC/SCANNER (vision)", "SCANNER", "CLV/CLC (ID)", "S300/S400 (safety)", "radar/lidar"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP", "OPC UA", "IO-Link"],
+      "targetIndustries": ["Machine OEM", "logistics", "mining", "food"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Sensors+vision+ID portfolio for automation",
+      "rankingScore": 76,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.sick.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "SICK AG", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*sick(?:[\\s,]+(?:a\\.?g\\.?|inc\\.?|incorporated|gmbh|ltd\\.?|limited))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*sick[\\s-]+(?:sensor[\\s-]+intelligence|optic[\\s-]+electronic)(?:[\\s,]+(?:gmbh|inc\\.?|ag|ltd\\.?))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-724b-aaa8-db3f37b0e05f",
+    "data": {
+      "name": "Endress+Hauser",
+      "aliases": ["Endress Hauser", "Endress & Hauser", "Endress and Hauser", "EndressHauser", "Endress+Hauser AG", "Endress+Hauser GmbH+Co. KG", "Endress+Hauser Flowtec AG", "Endress+Hauser Process Solutions AG", "E+H", "E&H"],
+      "rank": 20,
+      "parentCompany": "Endress+Hauser AG",
+      "hqCountry": "Austria",
+      "website": "https://www.endress.com",
+      "primaryCategory": "ICS/OT (Instrumentation)",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Flow", "level", "pressure", "analyzers", "transmitters"],
+      "keyProductFamilies": ["Promag (flow)", "Cerabar/Transit (level)", "Deltabarn (pressure)", "LVL (analyzers)", "PMP (pressure)"],
+      "industrialProtocols": ["HART", "Modbus TCP/RTU", "OPC UA", "IEC 61850"],
+      "targetIndustries": ["Oil&gas", "power", "water", "chemicals", "pharma"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Process instrumentation leader",
+      "rankingScore": 75,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.endress.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Endress+Hauser", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*endress[\\s+&._-]*(?:and\\s+)?hauser(?:[\\s,]+(?:ag|gmbh(?:\\s*[+&]\\s*co\\.?\\s*k\\.?g\\.?)?|inc\\.?|ltd\\.?|limited|group))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*endress[\\s+&._-]*(?:and\\s+)?hauser\\s+(?:flowtec|process\\s+solutions|conducta|wetzer|level\\s*\\+\\s*pressure)(?:[\\s,]+(?:ag|gmbh(?:\\s*[+&]\\s*co\\.?\\s*k\\.?g\\.?)?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*e\\s*[+&]\\s*h\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-7bbd-a888-eef8d658f4b6",
+    "data": {
+      "name": "Johnson Controls (JCI)",
+      "aliases": ["Johnson Controls", "JohnsonControls", "Johnson Controls, Inc.", "Johnson Controls International", "Johnson Controls International plc", "JCI"],
+      "rank": 21,
+      "parentCompany": "Johnson Controls International",
+      "hqCountry": "USA",
+      "website": "https://www.johnsoncontrols.com",
+      "primaryCategory": "Building Automation/ICS",
+      "secondaryCategories": ["CPPS", "OT"],
+      "productTypes": ["BMS/DDC", "access", "fire", "HVAC controls", "sensors"],
+      "keyProductFamilies": ["Metasys (DDC/BMS)", "JCI Access", "JCI Fire", "JCI HVAC controllers", "JCI sensors"],
+      "industrialProtocols": ["BACnet", "Modbus TCP/RTU", "LonTalk", "JCI proprietary"],
+      "targetIndustries": ["Commercial buildings", "healthcare", "education", "data centers"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Metasys BMS; access+fire hardware",
+      "rankingScore": 74,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.johnsoncontrols.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Johnson Controls (JCI)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*johnson[\\s._-]*controls(?:\\s+international)?(?:[\\s,]+(?:inc\\.?|incorporated|plc|ltd\\.?|limited|gmbh))?(?:\\s*\\(jci\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*j\\.?c\\.?i\\.?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-779b-93b4-f055c00db642",
+    "data": {
+      "name": "Baldor (Baldor Control)",
+      "aliases": ["Baldor", "Baldor Control", "Baldor Control GmbH", "Baldor Electric Company", "Baldor Electric Co.", "Baldor-Reliance", "ABB Baldor-Reliance"],
+      "rank": 22,
+      "parentCompany": "Baldor Control GmbH",
+      "hqCountry": "Germany",
+      "website": "https://www.baldor.de",
+      "primaryCategory": "OT/ICS",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["RTU", "HMI", "I/O", "industrial PC", "OT comms"],
+      "keyProductFamilies": ["RUGGED RTUs", "RUGGED HMI", "RUGGED I/O", "RUGGED IPC", "MRP (OT)"],
+      "industrialProtocols": ["Modbus TCP/RTU", "DNP3", "PROFINET", "OPC UA", "MQTT"],
+      "targetIndustries": ["Power", "water", "energy", "machine OEM"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "OT RTU/HMI/I-O portfolio (RuggedCom-adjacent)",
+      "rankingScore": 72,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.baldor.de"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Baldor (Baldor Control)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*baldor(?:\\s+(?:electric|control))?(?:[\\s,]+(?:co\\.?|company|gmbh|inc\\.?|ltd\\.?|limited))?(?:\\s*\\(baldor\\s+control\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*(?:abb\\s+)?baldor[\\s‐‑–-]+reliance(?:[\\s,]+(?:inc\\.?|co\\.?|company))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-780c-97aa-12662c52ef80",
+    "data": {
+      "name": "Kawasaki Robotics (Mecapace)",
+      "aliases": ["Kawasaki", "Kawasaki Robotics", "Kawasaki Heavy Industries", "Kawasaki Heavy Industries, Ltd.", "Kawasaki Robotics GmbH", "Kawasaki Robotics (USA), Inc."],
+      "rank": 24,
+      "parentCompany": "Kawasaki Heavy Industries",
+      "hqCountry": "Japan",
+      "website": "https://www.kawasaki.com",
+      "primaryCategory": "Industrial Robotics",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "robot arms", "system software"],
+      "keyProductFamilies": ["Mecapace robots", "KRC (controller)", "Kawasaki robots"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP"],
+      "targetIndustries": ["Automotive", "general assembly", "electronics"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "Mecapace robots+controllers",
+      "rankingScore": 70,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.kawasaki.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Kawasaki Robotics (Mecapace)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*kawasaki(?:\\s+heavy\\s+industries)?(?:[\\s,]+(?:ltd\\.?|limited|inc\\.?))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*kawasaki[\\s-]+robotics(?:\\s*\\((?:usa|mecapace)\\)|\\s+usa)?(?:[\\s,]+(?:inc\\.?|gmbh|ltd\\.?|limited))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-75e1-9808-9fcc2ae2f63b",
+    "data": {
+      "name": "Stäubli (Staubli)",
+      "aliases": ["Stäubli", "Staubli", "Staeubli", "Stäubli International AG", "Staubli Robotics", "Stäubli Faverges SCA", "Staubli Corporation"],
+      "rank": 25,
+      "parentCompany": "Stäubli International AG",
+      "hqCountry": "Switzerland",
+      "website": "https://www.staubli.com",
+      "primaryCategory": "Industrial Robotics/ICS",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "robot arms", "system software"],
+      "keyProductFamilies": ["STX/STP controllers", "STU robots", "STAUBLI robots"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP"],
+      "targetIndustries": ["Automotive", "general assembly", "electronics"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "STAUBLI robots+controllers",
+      "rankingScore": 69,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.staubli.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Stäubli (Staubli)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*st(?:a\\u0308|ä|ae|a)ubli(?:[\\s,]+(?:ag|gmbh|corp\\.?|corporation|inc\\.?|ltd\\.?|limited|s\\.?a\\.?|sas))?(?:\\s*\\(staubli\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*st(?:a\\u0308|ä|ae|a)ubli[\\s-]+(?:international|robotics|faverges|tec[\\s-]+systems)(?:[\\s,]+(?:ag|gmbh|corp\\.?|corporation|inc\\.?|ltd\\.?|limited|s\\.?a\\.?|sas|sca))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  },
+  {
+    "id": "01a17c04-0348-7ab0-b5cf-d26b35a12349",
+    "data": {
+      "name": "Comau (Comau Robotics)",
+      "aliases": ["Comau", "Comau S.p.A.", "Comau SpA", "Comau Robotics", "Comau, Inc.", "Comau Deutschland GmbH"],
+      "rank": 26,
+      "parentCompany": "Comau S.p.A.",
+      "hqCountry": "Italy",
+      "website": "https://www.comau.com",
+      "primaryCategory": "Industrial Robotics/ICS",
+      "secondaryCategories": ["CPPS", "Industrial Automation"],
+      "productTypes": ["Robot controllers", "robot arms", "system software"],
+      "keyProductFamilies": ["COMAU robots", "COMAU controllers", "COMAU software"],
+      "industrialProtocols": ["PROFINET", "Modbus TCP/RTU", "EtherNet/IP"],
+      "targetIndustries": ["Automotive", "general assembly", "electronics"],
+      "geographicPresence": "Global",
+      "marketPresenceEvidence": "COMAU robots+controllers",
+      "rankingScore": 68,
+      "confidence": "High",
+      "evidenceUrls": ["https://www.comau.com"],
+      "lastVerified": "2026-10-24"
+    },
+    "rules": {
+      "any": [
+        { "field": "manufacturer", "operator": "equals", "value": "Comau (Comau Robotics)", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*comau(?:[\\s,]+(?:s\\.?\\s*p\\.?\\s*a\\.?|inc\\.?|ltd\\.?|limited))?(?:\\s*\\(comau\\s+robotics\\))?\\s*$", "caseSensitive": false },
+        { "field": "manufacturer", "operator": "regex", "value": "^\\s*comau[\\s-]+(?:robotics|deutschland)(?:[\\s,]+(?:s\\.?p\\.?a\\.?|gmbh|inc\\.?|ltd\\.?|limited))?\\s*$", "caseSensitive": false }
+      ]
+    }
+  }
+]

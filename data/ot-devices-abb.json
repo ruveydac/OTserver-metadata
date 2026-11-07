@@ -1,0 +1,144 @@
+[
+  {
+    "id": "01a18b95-24dc-70e7-8d57-9ce1d01724f1",
+    "manufacturer_id": "01a17c04-0341-73f4-866b-bb434e2c18db",
+    "data": {
+      "manufacturer": "ABB",
+      "product_family": "IRB 4400",
+      "model": "IRB 4400/60",
+      "device_type": "Robotics",
+      "description": "A fast, compact robot for medium to heavy handling, with a 60 kg payload and 1.96 m reach. ABB describes the IRB 4400 as having communication capabilities including network interfaces and field bus interfaces for integration into manufacturing automation systems.",
+      "device_function": "Handling parts in manufacturing applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "ABB",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "product_family": {
+          "quote": "IRB 4400",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "model": {
+          "quote": "IRB 4400/60",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "device_type": {
+          "quote": "FAST, COMPACT AND VERSATILE INDUSTRIAL ROBOT",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "description": {
+          "quote": "IRB 4400 is an extremely fast, compact robot for medium to heavy handling. It has exceptional all-round capabilities which makes it suitable for a variety of manufacturing applications. The load capacity of 60 kg at very high speeds usually permits handling of two parts at a time.",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "device_function": {
+          "quote": "IRB 4400 is an extremely fast, compact robot for medium to heavy handling.",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        }
+      },
+      "source_url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400",
+      "source_sha256": "3b9a7d9593b99dfdd5789dcd4090afb83234b7e25aa914f27db86a1d5bf76c69",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "IRB 4400"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IRB 4400/60"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IRB 4400/60"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IRB 4400/60"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a18b95-2554-7bab-8ef9-ec7fbfcca475",
+    "manufacturer_id": "01a17c04-0341-73f4-866b-bb434e2c18db",
+    "data": {
+      "manufacturer": "ABB",
+      "product_family": "IRB 4400",
+      "model": "IRB 4400/L10",
+      "device_type": "Robotics",
+      "description": "A fast, compact robot for medium to heavy handling, with a 10 kg payload and 2.53 m reach. ABB describes the IRB 4400 as having communication capabilities including network interfaces and field bus interfaces for integration into manufacturing automation systems.",
+      "device_function": "Handling parts in manufacturing applications.",
+      "evidence_json": {
+        "manufacturer": {
+          "quote": "ABB",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "product_family": {
+          "quote": "IRB 4400",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "model": {
+          "quote": "IRB 4400/L10",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "device_type": {
+          "quote": "FAST, COMPACT AND VERSATILE INDUSTRIAL ROBOT",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "description": {
+          "quote": "IRB 4400 is an extremely fast, compact robot for medium to heavy handling. It has exceptional all-round capabilities which makes it suitable for a variety of manufacturing applications. The load capacity of 60 kg at very high speeds usually permits handling of two parts at a time.",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        },
+        "device_function": {
+          "quote": "IRB 4400 is an extremely fast, compact robot for medium to heavy handling.",
+          "url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400"
+        }
+      },
+      "source_url": "https://www.abb.com/global/en/areas/robotics/products/robots/articulated-robots/medium-robots/irb-4400",
+      "source_sha256": "3b9a7d9593b99dfdd5789dcd4090afb83234b7e25aa914f27db86a1d5bf76c69",
+      "last_verified": "2026-10-30"
+    },
+    "rules": {
+      "all": [
+        {
+          "field": "product_family",
+          "operator": "equals",
+          "value": "IRB 4400"
+        },
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IRB 4400/L10"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IRB 4400/L10"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IRB 4400/L10"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000003",
+    "discovery_date": "2026-11-07"
+  }
+]

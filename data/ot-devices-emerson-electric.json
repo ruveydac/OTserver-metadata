@@ -1,0 +1,2554 @@
+[
+  {
+    "id": "01a17f33-06df-73c7-b912-f4e6f0466fcf",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "FB3000 RTU",
+      "description": "Next-generation RTU providing the control required by the operation.",
+      "source_url": "https://www.emerson.com/de/automation-systems/scada-systems",
+      "source_locator": "HTML page",
+      "source_sha256": "b5e64c4639d6f60f24c800e5e7a4d8e4289ac6ee5f235e8a0c1031ad70d8ae02",
+      "evidence_json": {
+        "model": {
+          "quote": "Mit unserer FB3000 RTU",
+          "locator": "HTML page"
+        },
+        "description": {
+          "quote": "Mit unserer FB3000 RTU der nächsten Generation erhalten Sie so viel Kontrolle, wie Ihr Betrieb benötigt.",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "Mit unserer FB3000 RTU",
+          "url": "https://www.emerson.com/de/automation-systems/scada-systems"
+        }
+      },
+      "device_type": "RTU"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "FB3000 RTU"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "FB3000 RTU"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "FB3000 RTU"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000005",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06df-7a14-9f3c-96ef02e83819",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "4051S",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement",
+      "source_locator": "HTML page",
+      "source_sha256": "a2aced1769c8d2816fff054cceee73d7bcebfbc11d5d1dea57b52477277926a7",
+      "evidence_json": {
+        "model": {
+          "quote": "Rosemount™ 4051S Druckmessumformer",
+          "locator": "Empfohlene Produkte"
+        },
+        "device_type": {
+          "quote": "Rosemount™ 4051S Druckmessumformer",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "4051S"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "4051S"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "4051S"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e0-77de-bd81-9ef38f36fd3e",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "3051S",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement",
+      "source_locator": "HTML page",
+      "source_sha256": "a2aced1769c8d2816fff054cceee73d7bcebfbc11d5d1dea57b52477277926a7",
+      "evidence_json": {
+        "model": {
+          "quote": "Rosemount™ 3051S Druckmessumformer",
+          "locator": "Empfohlene Produkte"
+        },
+        "device_type": {
+          "quote": "Rosemount™ 3051S Druckmessumformer",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "3051S"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "3051S"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "3051S"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e0-73ad-ac62-2a5b5136f75d",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "3051",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement",
+      "source_locator": "HTML page",
+      "source_sha256": "a2aced1769c8d2816fff054cceee73d7bcebfbc11d5d1dea57b52477277926a7",
+      "evidence_json": {
+        "model": {
+          "quote": "Rosemount™ 3051 Druckmessumformer",
+          "locator": "Empfohlene Produkte"
+        },
+        "device_type": {
+          "quote": "Rosemount™ 3051 Druckmessumformer",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "3051"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "3051"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "3051"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e0-7e10-8bf2-31f8d49bd6ea",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "2051",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement",
+      "source_locator": "HTML page",
+      "source_sha256": "a2aced1769c8d2816fff054cceee73d7bcebfbc11d5d1dea57b52477277926a7",
+      "evidence_json": {
+        "model": {
+          "quote": "Rosemount™ 2051 Druckmessumformer",
+          "locator": "Empfohlene Produkte"
+        },
+        "device_type": {
+          "quote": "Rosemount™ 2051 Druckmessumformer",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "2051"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "2051"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "2051"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e1-75fb-bd9f-f27aa45333f3",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Geräte-Ventilblöcke",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement",
+      "source_locator": "HTML page",
+      "source_sha256": "a2aced1769c8d2816fff054cceee73d7bcebfbc11d5d1dea57b52477277926a7",
+      "evidence_json": {
+        "model": {
+          "quote": "Geräte-Ventilblöcke",
+          "locator": "Produkte anzeigen"
+        },
+        "device_type": {
+          "quote": "Geräte-Ventilblöcke",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/catalog/pressure-measurement"
+        }
+      },
+      "device_type": "Mechanical equipment"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Geräte-Ventilblöcke"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Geräte-Ventilblöcke"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Geräte-Ventilblöcke"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000012",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e2-796e-9e95-1b130e54e598",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV DCS",
+      "version_component": "DeltaV DCS",
+      "version": "16.LTS",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/de/automation-systems/deltav",
+      "source_locator": "HTML page",
+      "source_sha256": "793c890024ceec97f21e3098d217a4bb28a05dab91da3b29364f9717ba588f56",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV DCS Version 16 jetzt verfügbar",
+          "locator": "Source text"
+        },
+        "version": {
+          "quote": "DeltaV DCS Version 16.LTS baut auf jahrzehntelanger erprobter Innovation auf, um die bisher robusteste und zuverlässigste Version zu liefern.",
+          "locator": "Source text"
+        },
+        "device_type": {
+          "quote": "DeltaV DCS Version 16 jetzt verfügbar",
+          "url": "https://www.emerson.com/de/automation-systems/deltav"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV DCS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV DCS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV DCS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e3-77a0-90cf-757e7b556886",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS",
+      "version_component": "DeltaV",
+      "version_kind": "Version",
+      "version": "14",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis",
+      "source_locator": "HTML page",
+      "source_sha256": "65ffe53fb1c3c082ceaaebf2b6e2dea7615207d24b9c337f2bc5aa74131fb98f",
+      "evidence_json": {
+        "model": {
+          "quote": "Überblick über DeltaV SIS – Broschüre",
+          "locator": "Page text"
+        },
+        "version": {
+          "quote": "DeltaV Version 14 Sicherheitssystemerweiterungen Erfahren Sie mehr",
+          "locator": "Page text"
+        },
+        "device_type": {
+          "quote": "Überblick über DeltaV SIS – Broschüre",
+          "url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e3-779e-b4fc-6a3d9743d0d5",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation SIS",
+      "source_url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis",
+      "source_locator": "HTML page",
+      "source_sha256": "65ffe53fb1c3c082ceaaebf2b6e2dea7615207d24b9c337f2bc5aa74131fb98f",
+      "evidence_json": {
+        "model": {
+          "quote": "Das Ovation SIS nutzt die Leistungsfähigkeit der vorausschauenden Feldintelligenz, um die Verfügbarkeit der gesamten sicherheitsgerichteten Funktion zu erhöhen.",
+          "locator": "Page text"
+        },
+        "device_type": {
+          "quote": "Das Ovation SIS nutzt die Leistungsfähigkeit der vorausschauenden Feldintelligenz, um die Verfügbarkeit der gesamten sicherheitsgerichteten Funktion zu erhöhen.",
+          "url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation SIS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation SIS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation SIS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e3-7127-80cf-0fecd014955b",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "OCR3000",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_locator": "HTML page",
+      "source_sha256": "52204e37fce301947713d156ebf231e8495c20ba65cc1cea3a00384990452af5",
+      "evidence_json": {
+        "model": {
+          "quote": "OCR3000 Regler",
+          "locator": "Ovation Controller und E/A"
+        },
+        "device_type": {
+          "quote": "OCR3000 Regler",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "OCR3000"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "OCR3000"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "OCR3000"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e4-73b6-8374-a64f1dfaa949",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "OCC100",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_locator": "HTML page",
+      "source_sha256": "52204e37fce301947713d156ebf231e8495c20ba65cc1cea3a00384990452af5",
+      "evidence_json": {
+        "model": {
+          "quote": "OCC100 Controller",
+          "locator": "Ovation Controller und E/A"
+        },
+        "device_type": {
+          "quote": "OCC100 Controller",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "OCC100"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "OCC100"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "OCC100"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e4-7e76-9fa4-81b18824a466",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "OMC100",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_locator": "HTML page",
+      "source_sha256": "52204e37fce301947713d156ebf231e8495c20ba65cc1cea3a00384990452af5",
+      "evidence_json": {
+        "model": {
+          "quote": "OMC100 Regler",
+          "locator": "Ovation Controller und E/A"
+        },
+        "device_type": {
+          "quote": "OMC100 Regler",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "OMC100"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "OMC100"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "OMC100"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e4-7a43-a86d-c4304cdbfa17",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "SDC100",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_locator": "HTML page",
+      "source_sha256": "52204e37fce301947713d156ebf231e8495c20ba65cc1cea3a00384990452af5",
+      "evidence_json": {
+        "model": {
+          "quote": "SDC100 Regler",
+          "locator": "Ovation Controller und E/A"
+        },
+        "device_type": {
+          "quote": "SDC100 Regler",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SDC100"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SDC100"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SDC100"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e6-7180-8dc1-626b0cc2da10",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "FB3000",
+      "source_url": "https://videos.emerson.com/detail/video/6401133678112/fb-automation-platform-sales-training-%E2%80%94-firmware-v2.22-and-deltav-fbxconnect-v3.22-%E2%80%94-june-2026?autoStart=true&q=fbxconnect",
+      "source_locator": "HTML page",
+      "source_sha256": "7d5603d16839d379952a4e12fdf214d81b14e5bfd9f24c45038f7857957b132d",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV™ FB3000 RTU",
+          "locator": "Source text"
+        },
+        "version": {
+          "quote": "FB Automation Platform Sales Training — Firmware v2.22 — June 2026",
+          "url": "https://videos.emerson.com/detail/video/6401133678112/fb-automation-platform-sales-training-%E2%80%94-firmware-v2.22-and-deltav-fbxconnect-v3.22-%E2%80%94-june-2026?autoStart=true&q=fbxconnect"
+        },
+        "device_type": {
+          "quote": "DeltaV FB3000 Remote Terminal Unit (RTU)",
+          "url": "https://www.emerson.com/en/automation-systems/scada-systems/scada-systems-for-energy-transportation/remote-terminal-unit-rtu-fb3000"
+        }
+      },
+      "device_type": "RTU",
+      "version_kind": "firmware",
+      "version": "2.22",
+      "version_release_date": "2026-06-01"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "FB3000"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "FB3000"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "FB3000"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000005",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e6-78b4-b1e9-9803b0206696",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "RAF",
+      "source_url": "https://www.emerson.com/de/final-control/catalog/solutions/common-applications/natural-gas-distribution/smart-solutions-for-natural-gas",
+      "source_locator": "HTML page",
+      "source_sha256": "c34ec29c34bb263c79517c259458ef1e7964a0d38e1ba806ca5e55bc3b655227",
+      "evidence_json": {
+        "model": {
+          "quote": "Typ RAF, NG PRMS Station Regler",
+          "locator": "paragraph describing RAF"
+        }
+      },
+      "device_type": "RTU"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "RAF"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "RAF"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "RAF"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000005",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e6-7c93-a0f0-e2c72a582777",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Anderson Greenwood Serie 400 und 800",
+      "source_url": "https://www.emerson.com/de/final-control/catalog/solutions/blue-hydrogen",
+      "source_locator": "HTML page",
+      "source_sha256": "be3bd34a20ab4a8f9010474707ee1addfd9933ba13551f24a94c50d57ff40d4d",
+      "evidence_json": {
+        "model": {
+          "quote": "Anderson Greenwood Serie 400 und 800",
+          "locator": "Anderson Greenwood Serie 400 und 800 Sicherheitsventile"
+        },
+        "device_type": {
+          "quote": "Anderson Greenwood Serie 400 und 800",
+          "url": "https://www.emerson.com/de/final-control/catalog/solutions/blue-hydrogen"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Anderson Greenwood Serie 400 und 800"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Anderson Greenwood Serie 400 und 800"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Anderson Greenwood Serie 400 und 800"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e6-71bb-8152-58e98feffeec",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Fisher™ GX",
+      "source_url": "https://www.emerson.com/de/final-control/catalog/solutions/blue-hydrogen",
+      "source_locator": "HTML page",
+      "source_sha256": "be3bd34a20ab4a8f9010474707ee1addfd9933ba13551f24a94c50d57ff40d4d",
+      "evidence_json": {
+        "model": {
+          "quote": "Fisher™ GX Stellventil mit integriertem Antrieb",
+          "locator": "Fisher™ GX Stellventil mit integriertem Antrieb"
+        },
+        "device_type": {
+          "quote": "Fisher™ GX Stellventil mit integriertem Antrieb",
+          "url": "https://www.emerson.com/de/final-control/catalog/solutions/blue-hydrogen"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Fisher™ GX"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Fisher™ GX"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Fisher™ GX"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e6-7808-82e1-e66597c4da3e",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Rosemount™ 3051S",
+      "source_url": "https://www.emerson.com/de/measurement-instrumentation/products/rosemount-3051s-pressure-transmitter-family",
+      "source_locator": "HTML page",
+      "source_sha256": "190eb7440d916135295d09608251f2aff9e04e0ff2fa9967b5ff4e5ff187c2a8",
+      "evidence_json": {
+        "model": {
+          "quote": "Rosemount™ 3051S Druckmessumformer",
+          "locator": "https://www.emerson.com/de/measurement-instrumentation/products/rosemount-3051s-pressure-transmitter-family"
+        },
+        "device_type": {
+          "quote": "Rosemount™ 3051S Druckmessumformer",
+          "url": "https://www.emerson.com/de/measurement-instrumentation/products/rosemount-3051s-pressure-transmitter-family"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rosemount™ 3051S"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rosemount™ 3051S"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rosemount™ 3051S"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e7-738b-9702-24e209e3016a",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "IQ Controller",
+      "source_url": "https://www.emerson.com/de/automation-systems/deltav/deltav-v16",
+      "source_locator": "HTML page",
+      "source_sha256": "42f3fc4eae586d49e39088f62d9a5a9daec1900df19d796e6569f4c495328e9b",
+      "evidence_json": {
+        "model": {
+          "quote": "Einführung des DeltaV IQ Controllers – der nächste Entwicklungsschritt in der Prozesssteuerungstechnologie.",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "Einführung des DeltaV IQ Controllers – der nächste Entwicklungsschritt in der Prozesssteuerungstechnologie.",
+          "url": "https://www.emerson.com/de/automation-systems/deltav/deltav-v16"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "IQ Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "IQ Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "IQ Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e7-7f0a-8408-25b0c9b5f962",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "PK Controller",
+      "source_url": "https://www.emerson.com/de/automation-systems/deltav/deltav-v16",
+      "source_locator": "HTML page",
+      "source_sha256": "42f3fc4eae586d49e39088f62d9a5a9daec1900df19d796e6569f4c495328e9b",
+      "evidence_json": {
+        "model": {
+          "quote": "Das Herzstück dieser Verbesserungen ist der DeltaV PK Controller",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "Das Herzstück dieser Verbesserungen ist der DeltaV PK Controller",
+          "url": "https://www.emerson.com/de/automation-systems/deltav/deltav-v16"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e7-7777-b1ad-df6375cb8ed6",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Software-Defined Controller",
+      "source_url": "https://www.emerson.com/de/automation-systems/ovation/ovation-4",
+      "source_locator": "HTML page",
+      "source_sha256": "514871df1ddabcccf90a291c6524366771f6ad209a0f5369f91a638f968c7dff",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation Software-Defined Controller German 193.9 KB",
+          "locator": "Page content"
+        },
+        "device_type": {
+          "quote": "Ovation Software-Defined Controller German 193.9 KB",
+          "url": "https://www.emerson.com/de/automation-systems/ovation/ovation-4"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Software-Defined Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Software-Defined Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Software-Defined Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e7-7a9f-a90b-3e4d97d7eff4",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Standalone Controller",
+      "source_url": "https://www.emerson.com/de/automation-systems/ovation/ovation-4",
+      "source_locator": "HTML page",
+      "source_sha256": "514871df1ddabcccf90a291c6524366771f6ad209a0f5369f91a638f968c7dff",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation Standalone Controller Software Toolkit German 197.2 KB",
+          "locator": "Page content"
+        },
+        "device_type": {
+          "quote": "Ovation Standalone Controller Software Toolkit German 197.2 KB",
+          "url": "https://www.emerson.com/de/automation-systems/ovation/ovation-4"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Standalone Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Standalone Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Standalone Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-79b8-803d-8ff8beed93a3",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS™ Process Safety System",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 1 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV SIS™ Process Safety System",
+          "locator": "page 1 section 1"
+        },
+        "device_type": {
+          "quote": "DeltaV SIS™ Process Safety System",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS™ Process Safety System"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS™ Process Safety System"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS™ Process Safety System"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-733a-afa3-4f1def230cfa",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 2 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "The DeltaV SIS ™",
+          "locator": "page 2 section 1"
+        },
+        "device_type": {
+          "quote": "The DeltaV SIS ™",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-7ce8-8bf4-c0fbf6487a87",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Logic Solver",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 2 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "The logic solver",
+          "locator": "page 2 section 1"
+        },
+        "device_type": {
+          "quote": "The logic solver",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Logic Solver"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Logic Solver"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Logic Solver"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-7ce6-bfb1-b848f5aa2bad",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "CHARM smart logic solver (CSLS)",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 5 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "Each CHARM smart logic solver (CSLS) provides I/O processing, SIL 3–certified logic solving, and diagnostics, with redundancy and single channel integrity.",
+          "locator": "page 5 section 1"
+        },
+        "device_type": {
+          "quote": "Each CHARM smart logic solver (CSLS) provides I/O processing, SIL 3–certified logic solving, and diagnostics, with redundancy and single channel integrity.",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CHARM smart logic solver (CSLS)"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CHARM smart logic solver (CSLS)"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CHARM smart logic solver (CSLS)"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-7ce4-80c7-ccbf130d4d75",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Rosemount™",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 6 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "such as Rosemount™ and Micro Motion™ devices",
+          "locator": "page 6 section 1"
+        },
+        "device_type": {
+          "quote": "such as Rosemount™ and Micro Motion™ devices",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Sensor / actuator"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Rosemount™"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Rosemount™"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Rosemount™"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000b",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-7fc4-93ea-01ab0b71f2d7",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Micro Motion™",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 6 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "such as Rosemount™ and Micro Motion™ devices",
+          "locator": "page 6 section 1"
+        },
+        "device_type": {
+          "quote": "such as Rosemount™ and Micro Motion™ devices",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Measurement and monitoring"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Micro Motion™"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Micro Motion™"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Micro Motion™"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e8-7d80-865c-bb0321357cd5",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS™",
+      "source_url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf",
+      "source_locator": "page 10 section 1",
+      "source_sha256": "6cd8fd5055e1cea9504b730783d3edc86875b91aa7df85a4d09b78f0dd028c8f",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV SIS™",
+          "locator": "page 10 section 1"
+        },
+        "device_type": {
+          "quote": "DeltaV SIS™",
+          "url": "https://www.emerson.com/content/dam/emerson/de/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-sis-system-overview-brochure.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS™"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS™"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS™"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e9-7114-9308-e147805dd839",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "LS CHARMs",
+      "version": "v14",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 3 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "Distributed LS CHARMs",
+          "locator": "page 3 section 1"
+        },
+        "version": {
+          "quote": "In v14, the manipulation of simulated I/O for testing the safety logic is even easier.",
+          "locator": "page 3 section 1"
+        },
+        "device_type": {
+          "quote": "Distributed LS CHARMs",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "LS CHARMs"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "LS CHARMs"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "LS CHARMs"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e9-7267-aaec-bf1ab692bccd",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "PK Controller",
+      "version": "14",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 4 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV PK Controller with SIS",
+          "locator": "page 4"
+        },
+        "version": {
+          "quote": "VERSION 14",
+          "locator": "page 4"
+        },
+        "device_type": {
+          "quote": "DeltaV PK Controller with SIS",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e9-762a-aa68-3aff29afcee3",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "PK Controller",
+      "version": "13",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 4 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV PK Controller with SIS",
+          "locator": "page 4"
+        },
+        "version": {
+          "quote": "VERSION 13",
+          "locator": "page 4"
+        },
+        "device_type": {
+          "quote": "DeltaV PK Controller with SIS",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "PK Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06e9-7497-baf2-e6c4c678321f",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "SLS1508 Smart Logic Solver",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 4 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "SLS1508 Smart Logic Solver",
+          "locator": "page 4"
+        },
+        "device_type": {
+          "quote": "SLS1508 Smart Logic Solver",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SLS1508 Smart Logic Solver"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SLS1508 Smart Logic Solver"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SLS1508 Smart Logic Solver"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ea-7b29-938c-2f38e32a9733",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "SZ controller",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 4 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "SZ controller",
+          "locator": "page 4"
+        },
+        "device_type": {
+          "quote": "SZ controller",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "SZ controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "SZ controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "SZ controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ea-7dbe-94d8-f6b36f5baf3d",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV Operator Panel",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 4 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV Operator Panel",
+          "locator": "page 4"
+        },
+        "device_type": {
+          "quote": "DeltaV Operator Panel",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "HMI"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV Operator Panel"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV Operator Panel"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV Operator Panel"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000004",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ea-7302-9e70-1d8497d46267",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS",
+      "version": "14",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf",
+      "source_locator": "page 5 section 1",
+      "source_sha256": "e2dcd4b39fecee9db2427ab331e68ea9143434abe98ef5765f223e55767cd29a",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV SIS",
+          "locator": "page 5 section 1"
+        },
+        "version": {
+          "quote": "in v14 by grouping function blocks",
+          "locator": "page 5 section 1"
+        },
+        "device_type": {
+          "quote": "DeltaV SIS",
+          "url": "https://www.emerson.com/is/content/emerson/en/systems-and-software/deltav-safety-instrumented-systems/brochures-and-flyers/deltav-version-14-safety-instrumented-systems-enhancements.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ea-7213-bdbe-4b7ee046e599",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV Safety Instrumented System (SIS)",
+      "source_url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis/deltav-safety-instrumented-system",
+      "source_locator": "HTML page",
+      "source_sha256": "6ff9c99f4c64c9c06d2b480794731274fed25612579f233c61a15644ea3fa309",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV Safety Instrumented System (SIS)",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "DeltaV Safety Instrumented System (SIS)",
+          "url": "https://www.emerson.com/de/automation-systems/safety-instrumented-systems-sis/deltav-safety-instrumented-system"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV Safety Instrumented System (SIS)"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV Safety Instrumented System (SIS)"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV Safety Instrumented System (SIS)"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ea-7f66-af9a-a1898e0aa8ec",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling",
+      "source_url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf",
+      "source_locator": "page 1 section 1",
+      "source_sha256": "a1305c5233c8779a9ca489f8775393251c596b98a05671da48591a43e64c8574",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling",
+          "locator": "page 1 section 1"
+        },
+        "device_type": {
+          "quote": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling",
+          "url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation™ Safety Instrumented System (SIS) with Electronic Marshalling"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06eb-7b50-8328-a460e4f1261c",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "CHARMs",
+      "source_url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf",
+      "source_locator": "page 1 section 1",
+      "source_sha256": "a1305c5233c8779a9ca489f8775393251c596b98a05671da48591a43e64c8574",
+      "evidence_json": {
+        "model": {
+          "quote": "Characterization Modules (CHARMs)",
+          "locator": "page 1 section 1"
+        },
+        "device_type": {
+          "quote": "Characterization Modules (CHARMs)",
+          "url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CHARMs"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CHARMs"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CHARMs"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06eb-73d5-8b78-422f97fb08d2",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "CSLS",
+      "source_url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf",
+      "source_locator": "page 1 section 1",
+      "source_sha256": "a1305c5233c8779a9ca489f8775393251c596b98a05671da48591a43e64c8574",
+      "evidence_json": {
+        "model": {
+          "quote": "Characterization Modules (CHARMs) Smart Logic Solver (CSLS)",
+          "locator": "page 1 section 1"
+        },
+        "device_type": {
+          "quote": "Characterization Modules (CHARMs) Smart Logic Solver (CSLS)",
+          "url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CSLS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CSLS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CSLS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06eb-7d04-9218-5c5c7eade2b8",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "CSLS",
+      "version_component": "LS CHARMs",
+      "version": "3.5.2",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf",
+      "source_locator": "page 3 section 1",
+      "source_sha256": "a1305c5233c8779a9ca489f8775393251c596b98a05671da48591a43e64c8574",
+      "evidence_json": {
+        "model": {
+          "quote": "The CSLS architecture is fully redundant",
+          "locator": "page 3 section 1"
+        },
+        "version": {
+          "quote": "The following LS CHARMs are available, starting with Ovation 3.5.2:",
+          "locator": "page 3 section 1"
+        },
+        "device_type": {
+          "quote": "The CSLS architecture is fully redundant",
+          "url": "https://www.emerson.com/is/content/emerson/de/corporate/shared-assets/documents/pws_009075-ovation-safety-instrumented-systems.pdf"
+        }
+      },
+      "device_type": "Functional safety"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "CSLS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "CSLS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "CSLS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000002",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06eb-70e6-a5df-342c716e16f9",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation DCS",
+      "source_url": "https://www.emerson.com/de/automation-systems/automation-control-for-water-wastewater-industry",
+      "source_locator": "HTML page",
+      "source_sha256": "1afdd54dc2b9ea1244f06d9fc1274257eb1bea78a1c3633d5cdb615cbb5169a3",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation DCS",
+          "locator": "Automatisierung und Regelung für die Wasser- und Abwasserbranche"
+        },
+        "device_type": {
+          "quote": "Ovation DCS",
+          "url": "https://www.emerson.com/de/automation-systems/automation-control-for-water-wastewater-industry"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation DCS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation DCS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation DCS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06eb-71f4-90f9-a0b04e16cf0d",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation",
+      "source_url": "https://www.emerson.com/de/automation-systems/automation-control-for-water-wastewater-industry",
+      "source_locator": "HTML page",
+      "source_sha256": "1afdd54dc2b9ea1244f06d9fc1274257eb1bea78a1c3633d5cdb615cbb5169a3",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation",
+          "locator": "Automatisierung und Regelung für die Wasser- und Abwasserbranche"
+        },
+        "device_type": {
+          "quote": "Ovation",
+          "url": "https://www.emerson.com/de/automation-systems/automation-control-for-water-wastewater-industry"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ec-7eb8-acaf-9517d69baddd",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation™",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/advanced-power-plant-applications-and-optimization",
+      "source_locator": "HTML page",
+      "source_sha256": "f2229dcaf2e45a691ab1ad3a5db206e91ef23399ad3270ce617e52d8420c6268",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation™",
+          "locator": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/advanced-power-plant-applications-and-optimization"
+        },
+        "device_type": {
+          "quote": "Ovation™",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/advanced-power-plant-applications-and-optimization"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation™"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation™"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation™"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ec-76e3-942b-5a69f5b3cec2",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "Ovation Compact Controller",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications",
+      "source_locator": "HTML page",
+      "source_sha256": "6deea640a8f19d5cc78f10351e241eda1600034d56ffdb850d4a374464b88054",
+      "evidence_json": {
+        "model": {
+          "quote": "Ovation Compact Controller",
+          "locator": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications"
+        },
+        "device_type": {
+          "quote": "Ovation Compact Controller",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "Ovation Compact Controller"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "Ovation Compact Controller"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "Ovation Compact Controller"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ec-738a-af03-155ad249331b",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV™",
+      "source_url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications",
+      "source_locator": "HTML page",
+      "source_sha256": "6deea640a8f19d5cc78f10351e241eda1600034d56ffdb850d4a374464b88054",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV™",
+          "locator": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications"
+        },
+        "device_type": {
+          "quote": "DeltaV™",
+          "url": "https://www.emerson.com/de/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system/ovation-advanced-water-applications"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV™"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV™"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV™"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ed-79fc-917d-39298a5834ea",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV",
+      "source_url": "https://www.emerson.com/en/automation-systems/scada-systems",
+      "source_locator": "HTML page",
+      "source_sha256": "20d921b5f8613bd799dcde2a99b8c44ab8d6668d54be4f457002f1ba662a0f0e",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV",
+          "locator": "page"
+        },
+        "device_type": {
+          "quote": "DeltaV",
+          "url": "https://www.emerson.com/en/automation-systems/scada-systems"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ee-7820-b18f-37f641ad98dc",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "AMS Wireless Vibration Monitor",
+      "source_url": "https://www.emerson.com/en/automation-systems/asset-performance-management",
+      "source_locator": "HTML page",
+      "source_sha256": "fa5fde2c80e8d7a97020246f4a6d34c53489f2d7e1527ed46bd181d26c784f4a",
+      "evidence_json": {
+        "model": {
+          "quote": "AMS Wireless Vibration Monitor",
+          "locator": "Integrated APM Solutions Powered by A Cohesive and Scalable Software Architecture Enabling Technologies"
+        },
+        "device_type": {
+          "quote": "AMS Wireless Vibration Monitor",
+          "url": "https://www.emerson.com/en/automation-systems/asset-performance-management"
+        }
+      },
+      "device_type": "Measurement and monitoring"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "AMS Wireless Vibration Monitor"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "AMS Wireless Vibration Monitor"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "AMS Wireless Vibration Monitor"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ee-7ee2-95d1-257c5b88dfc8",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "AMS Asset Monitor",
+      "source_url": "https://www.emerson.com/en/automation-systems/asset-performance-management",
+      "source_locator": "HTML page",
+      "source_sha256": "fa5fde2c80e8d7a97020246f4a6d34c53489f2d7e1527ed46bd181d26c784f4a",
+      "evidence_json": {
+        "model": {
+          "quote": "AMS Asset Monitor",
+          "locator": "Integrated APM Solutions Powered by A Cohesive and Scalable Software Architecture Enabling Technologies"
+        },
+        "device_type": {
+          "quote": "AMS Asset Monitor",
+          "url": "https://www.emerson.com/en/automation-systems/asset-performance-management"
+        }
+      },
+      "device_type": "Measurement and monitoring"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "AMS Asset Monitor"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "AMS Asset Monitor"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "AMS Asset Monitor"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ee-71eb-80c9-cb69d13920e3",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "AMS 2140 Machinery Health Analyzer",
+      "source_url": "https://www.emerson.com/en/automation-systems/asset-performance-management",
+      "source_locator": "HTML page",
+      "source_sha256": "fa5fde2c80e8d7a97020246f4a6d34c53489f2d7e1527ed46bd181d26c784f4a",
+      "evidence_json": {
+        "model": {
+          "quote": "AMS 2140 Machinery Health Analyzer",
+          "locator": "Integrated APM Solutions Powered by A Cohesive and Scalable Software Architecture Enabling Technologies"
+        },
+        "device_type": {
+          "quote": "AMS 2140 Machinery Health Analyzer",
+          "url": "https://www.emerson.com/en/automation-systems/asset-performance-management"
+        }
+      },
+      "device_type": "Measurement and monitoring"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "AMS 2140 Machinery Health Analyzer"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "AMS 2140 Machinery Health Analyzer"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "AMS 2140 Machinery Health Analyzer"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-00000000000c",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ee-7089-80c9-550430d30978",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "DeltaV SIS",
+      "version_component": "DeltaV",
+      "version": "14",
+      "version_status": "unknown",
+      "source_url": "https://www.emerson.com/en/automation-systems/safety-instrumented-systems-sis",
+      "source_locator": "HTML page",
+      "source_sha256": "b1a9cd8360d2a14745eb3347000c58bc016a1deb7318d61783049b313224f1f0",
+      "evidence_json": {
+        "model": {
+          "quote": "DeltaV SIS Overview",
+          "locator": "HTML page"
+        },
+        "version": {
+          "quote": "DeltaV Version 14",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "DeltaV SIS Overview",
+          "url": "https://www.emerson.com/en/automation-systems/safety-instrumented-systems-sis"
+        }
+      },
+      "device_type": "Process and machine control"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "DeltaV SIS"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000006",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ef-7d79-a9e4-e12b9f87e2eb",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "FB1100",
+      "source_url": "https://www.emerson.com/de/automation-systems/scada-systems/scada-systems-for-oil-and-gas/emerson-flow-computers/fb1000-series-flow-computers",
+      "source_locator": "HTML page",
+      "source_sha256": "5222cf7d08cc37f2a680b855ae091777aa30504d5b36e5d20f5f5a3e61a3c119",
+      "evidence_json": {
+        "model": {
+          "quote": "FB1100 Single-Run Flow Computer mit Ex-Schutz für Gas",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "FB1100 Single-Run Flow Computer mit Ex-Schutz für Gas",
+          "url": "https://www.emerson.com/de/automation-systems/scada-systems/scada-systems-for-oil-and-gas/emerson-flow-computers/fb1000-series-flow-computers"
+        }
+      },
+      "device_type": "RTU"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "FB1100"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "FB1100"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "FB1100"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000005",
+    "discovery_date": "2026-11-07"
+  },
+  {
+    "id": "01a17f33-06ef-746a-bb81-c01a24310c9c",
+    "manufacturer_id": "01a17c04-0341-773e-9883-4f37471099e7",
+    "data": {
+      "manufacturer": "Emerson Electric (Process Control)",
+      "model": "FB1200",
+      "source_url": "https://www.emerson.com/de/automation-systems/scada-systems/scada-systems-for-oil-and-gas/emerson-flow-computers/fb1000-series-flow-computers",
+      "source_locator": "HTML page",
+      "source_sha256": "5222cf7d08cc37f2a680b855ae091777aa30504d5b36e5d20f5f5a3e61a3c119",
+      "evidence_json": {
+        "model": {
+          "quote": "FB1200 Multi-Run Flowcomputer mit Ex-Schutz für Gas und Flüssigkeiten",
+          "locator": "HTML page"
+        },
+        "device_type": {
+          "quote": "FB1200 Multi-Run Flowcomputer mit Ex-Schutz für Gas und Flüssigkeiten",
+          "url": "https://www.emerson.com/de/automation-systems/scada-systems/scada-systems-for-oil-and-gas/emerson-flow-computers/fb1000-series-flow-computers"
+        }
+      },
+      "device_type": "RTU"
+    },
+    "rules": {
+      "all": [
+        {
+          "any": [
+            {
+              "field": "model",
+              "operator": "equals",
+              "value": "FB1200"
+            },
+            {
+              "field": "model_name",
+              "operator": "equals",
+              "value": "FB1200"
+            },
+            {
+              "field": "device_name",
+              "operator": "equals",
+              "value": "FB1200"
+            }
+          ]
+        }
+      ]
+    },
+    "device_type_id": "019a34b0-0000-7000-8000-000000000005",
+    "discovery_date": "2026-11-07"
+  }
+]
